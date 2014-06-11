@@ -1,0 +1,1833 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'phonegap' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'phonegap', null ]
+6 verbose cache add name=undefined spec="phonegap" args=["phonegap",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'phonegap',
+7 verbose parsed url   path: 'phonegap',
+7 verbose parsed url   href: 'phonegap' }
+8 silly lockFile 10db903f-phonegap phonegap
+9 verbose lock phonegap C:\Users\gianpaolo\AppData\Roaming\npm-cache\10db903f-phonegap.lock
+10 silly lockFile 10db903f-phonegap phonegap
+11 silly lockFile 10db903f-phonegap phonegap
+12 verbose addNamed [ 'phonegap', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 3a6257f3-phonegap phonegap@
+15 verbose lock phonegap@ C:\Users\gianpaolo\AppData\Roaming\npm-cache\3a6257f3-phonegap.lock
+16 silly addNameRange { name: 'phonegap', range: '*', hasData: false }
+17 verbose url raw phonegap
+18 verbose url resolving [ 'https://registry.npmjs.org/', './phonegap' ]
+19 verbose url resolved https://registry.npmjs.org/phonegap
+20 info trying registry request attempt 1 at 00:27:05
+21 http GET https://registry.npmjs.org/phonegap
+22 http 200 https://registry.npmjs.org/phonegap
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:05 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+23 silly registry.get     etag: '"6Q743MZ67R89YAQ91AGQY35J6"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=1',
+23 silly registry.get     'content-length': '139612',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '3477',
+23 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1402266425.807705,VS0,VE176',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly addNameRange number 2 { name: 'phonegap', range: '*', hasData: true }
+25 silly addNameRange versions [ 'phonegap',
+25 silly addNameRange   [ '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2',
+25 silly addNameRange     '0.3.0',
+25 silly addNameRange     '0.4.0',
+25 silly addNameRange     '0.4.1',
+25 silly addNameRange     '0.5.0',
+25 silly addNameRange     '0.6.0',
+25 silly addNameRange     '0.6.1',
+25 silly addNameRange     '0.7.0',
+25 silly addNameRange     '0.7.1',
+25 silly addNameRange     '0.7.2',
+25 silly addNameRange     '0.7.3',
+25 silly addNameRange     '0.7.4',
+25 silly addNameRange     '0.7.5',
+25 silly addNameRange     '0.7.6',
+25 silly addNameRange     '0.7.7',
+25 silly addNameRange     '0.7.8',
+25 silly addNameRange     '0.8.0',
+25 silly addNameRange     '0.8.1',
+25 silly addNameRange     '0.9.0',
+25 silly addNameRange     '0.9.1',
+25 silly addNameRange     '0.9.2',
+25 silly addNameRange     '0.9.3',
+25 silly addNameRange     '0.9.4',
+25 silly addNameRange     '2.8.0-0.10.0',
+25 silly addNameRange     '2.8.0-0.10.1',
+25 silly addNameRange     '2.8.0-0.10.2',
+25 silly addNameRange     '2.8.0-0.10.3',
+25 silly addNameRange     '2.8.0-0.10.4',
+25 silly addNameRange     '2.8.0-0.10.6',
+25 silly addNameRange     '2.8.1-0.11.0',
+25 silly addNameRange     '2.9.0-0.12.2',
+25 silly addNameRange     '2.9.0-0.12.3',
+25 silly addNameRange     '2.9.0-0.12.4',
+25 silly addNameRange     '2.9.0-0.12.5',
+25 silly addNameRange     '2.9.0-0.12.6',
+25 silly addNameRange     '2.9.0-0.12.7',
+25 silly addNameRange     '2.9.0-0.12.8',
+25 silly addNameRange     '2.9.0-rc1-0.12.0',
+25 silly addNameRange     '2.9.0-rc1-0.12.1',
+25 silly addNameRange     '2.9.0-rc1-0.12.2',
+25 silly addNameRange     '2.9.0-0.12.9',
+25 silly addNameRange     '2.9.0-0.12.10',
+25 silly addNameRange     '2.9.0-0.12.11',
+25 silly addNameRange     '2.9.0-0.13.0',
+25 silly addNameRange     '2.9.0-0.13.1',
+25 silly addNameRange     '2.9.0-0.13.2',
+25 silly addNameRange     '3.0.0-rc1-0.13.2',
+25 silly addNameRange     '3.0.0-rc1-0.13.3',
+25 silly addNameRange     '3.0.0-0.14.0',
+25 silly addNameRange     '3.0.0-0.14.1',
+25 silly addNameRange     '3.0.0-0.14.2',
+25 silly addNameRange     '3.0.0-0.14.3',
+25 silly addNameRange     '3.0.0-0.14.4',
+25 silly addNameRange     '3.1.0-0.15.0',
+25 silly addNameRange     '3.2.0-0.15.0',
+25 silly addNameRange     '3.2.0-0.16.0',
+25 silly addNameRange     '3.2.0-0.17.0',
+25 silly addNameRange     '3.2.0-0.17.1',
+25 silly addNameRange     '3.3.0-0.17.1',
+25 silly addNameRange     '3.3.0-0.18.0',
+25 silly addNameRange     '3.3.0-0.18.1',
+25 silly addNameRange     '3.3.0-0.19.0',
+25 silly addNameRange     '3.3.0-0.19.1',
+25 silly addNameRange     '3.3.0-0.19.2',
+25 silly addNameRange     '3.3.0-0.19.3',
+25 silly addNameRange     '3.3.0-0.19.4',
+25 silly addNameRange     '3.3.0-0.19.5',
+25 silly addNameRange     '3.3.0-0.19.6',
+25 silly addNameRange     '3.4.0-0.19.7',
+25 silly addNameRange     '3.4.0-0.19.8',
+25 silly addNameRange     '3.4.0-0.19.9',
+25 silly addNameRange     '3.4.0-0.19.10',
+25 silly addNameRange     '3.4.0-0.19.11',
+25 silly addNameRange     '3.4.0-0.19.12',
+25 silly addNameRange     '3.4.0-0.19.13',
+25 silly addNameRange     '3.4.0-0.19.14',
+25 silly addNameRange     '3.4.0-0.19.15',
+25 silly addNameRange     '3.4.0-0.19.16',
+25 silly addNameRange     '3.4.0-0.19.17',
+25 silly addNameRange     '3.4.0-0.19.18',
+25 silly addNameRange     '3.4.0-0.19.19',
+25 silly addNameRange     '3.4.0-0.19.20',
+25 silly addNameRange     '3.4.0-0.19.21',
+25 silly addNameRange     '3.4.0-0.20.0',
+25 silly addNameRange     '3.5.0-0.19.23',
+25 silly addNameRange     '3.5.0-0.20.0',
+25 silly addNameRange     '3.5.0-0.20.1' ] ]
+26 verbose addNamed [ 'phonegap', '3.5.0-0.20.1' ]
+27 verbose addNamed [ '3.5.0-0.20.1', '3.5.0-0.20.1' ]
+28 silly lockFile 17d9d8ce-phonegap-3-5-0-0-20-1 phonegap@3.5.0-0.20.1
+29 verbose lock phonegap@3.5.0-0.20.1 C:\Users\gianpaolo\AppData\Roaming\npm-cache\17d9d8ce-phonegap-3-5-0-0-20-1.lock
+30 silly lockFile 0007d09c-onegap-phonegap-3-5-0-0-20-1-tgz https://registry.npmjs.org/phonegap/-/phonegap-3.5.0-0.20.1.tgz
+31 verbose lock https://registry.npmjs.org/phonegap/-/phonegap-3.5.0-0.20.1.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\0007d09c-onegap-phonegap-3-5-0-0-20-1-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/phonegap/-/phonegap-3.5.0-0.20.1.tgz',
+32 verbose addRemoteTarball   '7464bac411c050a06aaf9c7535bbee4a3dd1cf91' ]
+33 info retry fetch attempt 1 at 00:27:07
+34 verbose fetch to= C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\tmp.tgz
+35 http GET https://registry.npmjs.org/phonegap/-/phonegap-3.5.0-0.20.1.tgz
+36 http 200 https://registry.npmjs.org/phonegap/-/phonegap-3.5.0-0.20.1.tgz
+37 verbose tar unpack C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\tmp.tgz
+38 silly lockFile ab52249a-427463-0-328709261957556-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\package
+39 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\ab52249a-427463-0-328709261957556-package.lock
+40 silly lockFile 2b11137b-427463-0-328709261957556-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\tmp.tgz
+41 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\tmp.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\2b11137b-427463-0-328709261957556-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm extractEntry COPYRIGHT
+48 silly gunzTarPerm extractEntry NOTICE
+49 silly gunzTarPerm extractEntry .travis.yml
+50 silly gunzTarPerm extractEntry bin/phonegap.js
+51 silly gunzTarPerm extractEntry doc/cli/help.platform.txt
+52 silly gunzTarPerm extractEntry doc/cli/help.build.txt
+53 silly gunzTarPerm extractEntry doc/cli/help.install.txt
+54 silly gunzTarPerm extractEntry doc/cli/help.local.build.txt
+55 silly gunzTarPerm extractEntry doc/cli/help.local.install.txt
+56 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.add.txt
+57 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.list.txt
+58 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.remove.txt
+59 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.txt
+60 silly gunzTarPerm extractEntry doc/cli/help.local.run.txt
+61 silly gunzTarPerm extractEntry doc/cli/help.local.txt
+62 silly gunzTarPerm extractEntry doc/cli/help.create.txt
+63 silly gunzTarPerm extractEntry doc/cli/help.platform.update.txt
+64 silly gunzTarPerm extractEntry doc/cli/help.remote.build.txt
+65 silly gunzTarPerm extractEntry doc/cli/help.remote.install.txt
+66 silly gunzTarPerm extractEntry doc/cli/help.remote.login.txt
+67 silly gunzTarPerm extractEntry doc/cli/help.remote.logout.txt
+68 silly gunzTarPerm extractEntry doc/cli/help.remote.run.txt
+69 silly gunzTarPerm extractEntry doc/cli/help.remote.txt
+70 silly gunzTarPerm extractEntry doc/cli/help.run.txt
+71 silly gunzTarPerm extractEntry doc/cli/help.serve.txt
+72 silly gunzTarPerm extractEntry doc/cli/help.txt
+73 silly gunzTarPerm extractEntry lib/cli.js
+74 silly gunzTarPerm extractEntry lib/main.js
+75 silly gunzTarPerm extractEntry lib/phonegap.js
+76 silly gunzTarPerm extractEntry lib/cli/argv.js
+77 silly gunzTarPerm extractEntry lib/cli/local.plugin.remove.js
+78 silly gunzTarPerm extractEntry lib/cli/local.run.js
+79 silly gunzTarPerm extractEntry lib/cli/platform.js
+80 silly gunzTarPerm extractEntry lib/cli/local.plugin.list.js
+81 silly gunzTarPerm extractEntry lib/cli/build.js
+82 silly gunzTarPerm extractEntry lib/cli/plugin.js
+83 silly gunzTarPerm extractEntry lib/cli/plugin.list.js
+84 silly gunzTarPerm extractEntry lib/cli/plugin.remove.js
+85 silly gunzTarPerm extractEntry lib/cli/remote.build.js
+86 silly gunzTarPerm extractEntry lib/cli/local.plugin.js
+87 silly gunzTarPerm extractEntry lib/cli/remote.install.js
+88 silly gunzTarPerm extractEntry lib/cli/local.plugin.add.js
+89 silly gunzTarPerm extractEntry lib/cli/remote.js
+90 silly gunzTarPerm extractEntry lib/cli/local.js
+91 silly gunzTarPerm extractEntry lib/cli/remote.login.js
+92 silly gunzTarPerm extractEntry lib/cli/local.install.js
+93 silly gunzTarPerm extractEntry lib/cli/remote.logout.js
+94 silly gunzTarPerm extractEntry lib/cli/local.build.js
+95 silly gunzTarPerm extractEntry lib/cli/remote.run.js
+96 silly gunzTarPerm extractEntry lib/cli/install.js
+97 silly gunzTarPerm extractEntry lib/cli/run.js
+98 silly gunzTarPerm extractEntry lib/cli/help.js
+99 silly gunzTarPerm extractEntry lib/cli/serve.js
+100 silly gunzTarPerm extractEntry lib/cli/create.js
+101 silly gunzTarPerm extractEntry lib/cli/unknown.js
+102 silly gunzTarPerm extractEntry lib/cli/platform.update.js
+103 silly gunzTarPerm extractEntry lib/cli/version.js
+104 silly gunzTarPerm extractEntry lib/cli/plugin.add.js
+105 silly gunzTarPerm extractEntry lib/cli/util/console.js
+106 silly gunzTarPerm extractEntry lib/common/config.js
+107 silly gunzTarPerm extractEntry lib/common/config/global.js
+108 silly gunzTarPerm extractEntry lib/common/config/local.js
+109 silly gunzTarPerm extractEntry lib/phonegap/build.js
+110 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.list.js
+111 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.remove.js
+112 silly gunzTarPerm extractEntry lib/phonegap/local.run.js
+113 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.add.js
+114 silly gunzTarPerm extractEntry lib/phonegap/create.js
+115 silly gunzTarPerm extractEntry lib/phonegap/remote.build.js
+116 silly gunzTarPerm extractEntry lib/phonegap/remote.install.js
+117 silly gunzTarPerm extractEntry lib/phonegap/remote.login.js
+118 silly gunzTarPerm extractEntry lib/phonegap/remote.logout.js
+119 silly gunzTarPerm extractEntry lib/phonegap/local.install.js
+120 silly gunzTarPerm extractEntry lib/phonegap/remote.run.js
+121 silly gunzTarPerm extractEntry lib/phonegap/local.build.js
+122 silly gunzTarPerm extractEntry lib/phonegap/run.js
+123 silly gunzTarPerm extractEntry lib/phonegap/install.js
+124 silly gunzTarPerm extractEntry lib/phonegap/serve.js
+125 silly gunzTarPerm extractEntry lib/phonegap/mode.js
+126 silly gunzTarPerm extractEntry lib/phonegap/version.js
+127 silly gunzTarPerm extractEntry lib/phonegap/platform.update.js
+128 silly gunzTarPerm extractEntry lib/phonegap/util/command.js
+129 silly gunzTarPerm extractEntry lib/phonegap/util/phonegap-build.js
+130 silly gunzTarPerm extractEntry lib/phonegap/util/platform.js
+131 silly gunzTarPerm extractEntry lib/phonegap/util/project.js
+132 silly gunzTarPerm extractEntry CONTRIBUTING.md
+133 silly gunzTarPerm extractEntry spec/cli.spec.js
+134 silly gunzTarPerm extractEntry spec/main.spec.js
+135 silly gunzTarPerm extractEntry spec/phonegap.spec.js
+136 silly gunzTarPerm extractEntry spec/cli/app.spec.js
+137 silly gunzTarPerm extractEntry spec/cli/local.run.spec.js
+138 silly gunzTarPerm extractEntry spec/cli/local.spec.js
+139 silly gunzTarPerm extractEntry spec/cli/platform.spec.js
+140 silly gunzTarPerm extractEntry spec/cli/platform.update.spec.js
+141 silly gunzTarPerm extractEntry spec/cli/local.plugin.spec.js
+142 silly gunzTarPerm extractEntry spec/cli/plugin.list.spec.js
+143 silly gunzTarPerm extractEntry spec/cli/plugin.remove.spec.js
+144 silly gunzTarPerm extractEntry spec/cli/plugin.spec.js
+145 silly gunzTarPerm extractEntry spec/cli/remote.build.spec.js
+146 silly gunzTarPerm extractEntry spec/cli/remote.install.spec.js
+147 silly gunzTarPerm extractEntry spec/cli/local.plugin.remove.spec.js
+148 silly gunzTarPerm extractEntry spec/cli/remote.login.spec.js
+149 silly gunzTarPerm extractEntry spec/cli/local.plugin.list.spec.js
+150 silly gunzTarPerm extractEntry spec/cli/remote.logout.spec.js
+151 silly gunzTarPerm extractEntry spec/cli/local.plugin.add.spec.js
+152 silly gunzTarPerm extractEntry spec/cli/remote.run.spec.js
+153 silly gunzTarPerm extractEntry spec/cli/local.install.spec.js
+154 silly gunzTarPerm extractEntry spec/cli/remote.spec.js
+155 silly gunzTarPerm extractEntry spec/cli/local.build.spec.js
+156 silly gunzTarPerm extractEntry spec/cli/run.spec.js
+157 silly gunzTarPerm extractEntry spec/cli/install.spec.js
+158 silly gunzTarPerm extractEntry spec/cli/serve.spec.js
+159 silly gunzTarPerm extractEntry spec/cli/help.spec.js
+160 silly gunzTarPerm extractEntry spec/cli/unknown.spec.js
+161 silly gunzTarPerm extractEntry spec/cli/create.spec.js
+162 silly gunzTarPerm extractEntry spec/cli/verbose.spec.js
+163 silly gunzTarPerm extractEntry spec/cli/build.spec.js
+164 silly gunzTarPerm extractEntry spec/cli/version.spec.js
+165 silly gunzTarPerm extractEntry spec/cli/plugin.add.spec.js
+166 silly gunzTarPerm extractEntry spec/common/config/global.spec.js
+167 silly gunzTarPerm extractEntry spec/common/config/local.spec.js
+168 silly gunzTarPerm extractEntry spec/phonegap/app.spec.js
+169 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.remove.spec.js
+170 silly gunzTarPerm extractEntry spec/phonegap/local.run.spec.js
+171 silly gunzTarPerm extractEntry spec/phonegap/mode.spec.js
+172 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.list.spec.js
+173 silly gunzTarPerm extractEntry spec/phonegap/build.spec.js
+174 silly gunzTarPerm extractEntry spec/phonegap/plugin.list.spec.js
+175 silly gunzTarPerm extractEntry spec/phonegap/plugin.remove.spec.js
+176 silly gunzTarPerm extractEntry spec/phonegap/remote.build.spec.js
+177 silly gunzTarPerm extractEntry spec/phonegap/remote.install.spec.js
+178 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.add.spec.js
+179 silly gunzTarPerm extractEntry spec/phonegap/remote.login.spec.js
+180 silly gunzTarPerm extractEntry spec/phonegap/local.install.spec.js
+181 silly gunzTarPerm extractEntry spec/phonegap/remote.logout.spec.js
+182 silly gunzTarPerm extractEntry spec/phonegap/local.build.spec.js
+183 silly gunzTarPerm extractEntry spec/phonegap/remote.run.spec.js
+184 silly gunzTarPerm extractEntry spec/phonegap/install.spec.js
+185 silly gunzTarPerm extractEntry spec/phonegap/run.spec.js
+186 silly gunzTarPerm extractEntry spec/phonegap/create.spec.js
+187 silly gunzTarPerm extractEntry spec/phonegap/serve.spec.js
+188 silly gunzTarPerm extractEntry spec/phonegap/platform.update.spec.js
+189 silly gunzTarPerm extractEntry spec/phonegap/version.spec.js
+190 silly gunzTarPerm extractEntry spec/phonegap/plugin.add.spec.js
+191 silly gunzTarPerm extractEntry spec/phonegap/util/platform.spec.js
+192 silly gunzTarPerm extractEntry spec/phonegap/util/project.spec.js
+193 silly lockFile ab52249a-427463-0-328709261957556-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\package
+194 silly lockFile ab52249a-427463-0-328709261957556-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\package
+195 silly lockFile 2b11137b-427463-0-328709261957556-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\tmp.tgz
+196 silly lockFile 2b11137b-427463-0-328709261957556-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\tmp.tgz
+197 verbose tar pack [ 'C:\\Users\\gianpaolo\\AppData\\Roaming\\npm-cache\\phonegap\\3.5.0-0.20.1\\package.tgz',
+197 verbose tar pack   'C:\\Users\\GIANPA~1\\AppData\\Local\\Temp\\npm-5292-dEq0PFOY\\1402266427463-0.328709261957556\\package' ]
+198 verbose tarball C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+199 verbose folder C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\package
+200 silly lockFile ab52249a-427463-0-328709261957556-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\package
+201 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\ab52249a-427463-0-328709261957556-package.lock
+202 silly lockFile e0263b55-honegap-3-5-0-0-20-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+203 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\e0263b55-honegap-3-5-0-0-20-1-package-tgz.lock
+204 silly lockFile ab52249a-427463-0-328709261957556-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\package
+205 silly lockFile ab52249a-427463-0-328709261957556-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266427463-0.328709261957556\package
+206 silly lockFile e0263b55-honegap-3-5-0-0-20-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+207 silly lockFile e0263b55-honegap-3-5-0-0-20-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+208 silly lockFile cb0f5d1b-he-phonegap-3-5-0-0-20-1-package C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package
+209 verbose lock C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\cb0f5d1b-he-phonegap-3-5-0-0-20-1-package.lock
+210 silly lockFile cb0f5d1b-he-phonegap-3-5-0-0-20-1-package C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package
+211 silly lockFile cb0f5d1b-he-phonegap-3-5-0-0-20-1-package C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package
+212 verbose tar unpack C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+213 silly lockFile 7f41c95f-he-phonegap-3-5-0-0-20-1-package tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package
+214 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\7f41c95f-he-phonegap-3-5-0-0-20-1-package.lock
+215 silly lockFile e0263b55-honegap-3-5-0-0-20-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+216 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\e0263b55-honegap-3-5-0-0-20-1-package-tgz.lock
+217 silly gunzTarPerm modes [ '755', '644' ]
+218 silly gunzTarPerm extractEntry package.json
+219 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+220 silly gunzTarPerm extractEntry .npmignore
+221 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+222 silly gunzTarPerm extractEntry README.md
+223 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+224 silly gunzTarPerm extractEntry LICENSE
+225 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+226 silly gunzTarPerm extractEntry COPYRIGHT
+227 silly gunzTarPerm modified mode [ 'COPYRIGHT', 438, 420 ]
+228 silly gunzTarPerm extractEntry NOTICE
+229 silly gunzTarPerm modified mode [ 'NOTICE', 438, 420 ]
+230 silly gunzTarPerm extractEntry .travis.yml
+231 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+232 silly gunzTarPerm extractEntry bin/phonegap.js
+233 silly gunzTarPerm modified mode [ 'bin/phonegap.js', 438, 420 ]
+234 silly gunzTarPerm extractEntry doc/cli/help.platform.txt
+235 silly gunzTarPerm modified mode [ 'doc/cli/help.platform.txt', 438, 420 ]
+236 silly gunzTarPerm extractEntry doc/cli/help.build.txt
+237 silly gunzTarPerm modified mode [ 'doc/cli/help.build.txt', 438, 420 ]
+238 silly gunzTarPerm extractEntry doc/cli/help.install.txt
+239 silly gunzTarPerm modified mode [ 'doc/cli/help.install.txt', 438, 420 ]
+240 silly gunzTarPerm extractEntry doc/cli/help.local.build.txt
+241 silly gunzTarPerm modified mode [ 'doc/cli/help.local.build.txt', 438, 420 ]
+242 silly gunzTarPerm extractEntry doc/cli/help.local.install.txt
+243 silly gunzTarPerm modified mode [ 'doc/cli/help.local.install.txt', 438, 420 ]
+244 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.add.txt
+245 silly gunzTarPerm modified mode [ 'doc/cli/help.local.plugin.add.txt', 438, 420 ]
+246 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.list.txt
+247 silly gunzTarPerm modified mode [ 'doc/cli/help.local.plugin.list.txt', 438, 420 ]
+248 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.remove.txt
+249 silly gunzTarPerm modified mode [ 'doc/cli/help.local.plugin.remove.txt', 438, 420 ]
+250 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.txt
+251 silly gunzTarPerm modified mode [ 'doc/cli/help.local.plugin.txt', 438, 420 ]
+252 silly gunzTarPerm extractEntry doc/cli/help.local.run.txt
+253 silly gunzTarPerm modified mode [ 'doc/cli/help.local.run.txt', 438, 420 ]
+254 silly gunzTarPerm extractEntry doc/cli/help.local.txt
+255 silly gunzTarPerm modified mode [ 'doc/cli/help.local.txt', 438, 420 ]
+256 silly gunzTarPerm extractEntry doc/cli/help.create.txt
+257 silly gunzTarPerm modified mode [ 'doc/cli/help.create.txt', 438, 420 ]
+258 silly gunzTarPerm extractEntry doc/cli/help.platform.update.txt
+259 silly gunzTarPerm modified mode [ 'doc/cli/help.platform.update.txt', 438, 420 ]
+260 silly gunzTarPerm extractEntry doc/cli/help.remote.build.txt
+261 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.build.txt', 438, 420 ]
+262 silly gunzTarPerm extractEntry doc/cli/help.remote.install.txt
+263 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.install.txt', 438, 420 ]
+264 silly gunzTarPerm extractEntry doc/cli/help.remote.login.txt
+265 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.login.txt', 438, 420 ]
+266 silly gunzTarPerm extractEntry doc/cli/help.remote.logout.txt
+267 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.logout.txt', 438, 420 ]
+268 silly gunzTarPerm extractEntry doc/cli/help.remote.run.txt
+269 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.run.txt', 438, 420 ]
+270 silly gunzTarPerm extractEntry doc/cli/help.remote.txt
+271 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.txt', 438, 420 ]
+272 silly gunzTarPerm extractEntry doc/cli/help.run.txt
+273 silly gunzTarPerm modified mode [ 'doc/cli/help.run.txt', 438, 420 ]
+274 silly gunzTarPerm extractEntry doc/cli/help.serve.txt
+275 silly gunzTarPerm modified mode [ 'doc/cli/help.serve.txt', 438, 420 ]
+276 silly gunzTarPerm extractEntry doc/cli/help.txt
+277 silly gunzTarPerm modified mode [ 'doc/cli/help.txt', 438, 420 ]
+278 silly gunzTarPerm extractEntry lib/cli.js
+279 silly gunzTarPerm modified mode [ 'lib/cli.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry lib/main.js
+281 silly gunzTarPerm modified mode [ 'lib/main.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry lib/phonegap.js
+283 silly gunzTarPerm modified mode [ 'lib/phonegap.js', 438, 420 ]
+284 silly gunzTarPerm extractEntry lib/cli/argv.js
+285 silly gunzTarPerm modified mode [ 'lib/cli/argv.js', 438, 420 ]
+286 silly gunzTarPerm extractEntry lib/cli/local.plugin.remove.js
+287 silly gunzTarPerm modified mode [ 'lib/cli/local.plugin.remove.js', 438, 420 ]
+288 silly gunzTarPerm extractEntry lib/cli/local.run.js
+289 silly gunzTarPerm modified mode [ 'lib/cli/local.run.js', 438, 420 ]
+290 silly gunzTarPerm extractEntry lib/cli/platform.js
+291 silly gunzTarPerm modified mode [ 'lib/cli/platform.js', 438, 420 ]
+292 silly gunzTarPerm extractEntry lib/cli/local.plugin.list.js
+293 silly gunzTarPerm modified mode [ 'lib/cli/local.plugin.list.js', 438, 420 ]
+294 silly gunzTarPerm extractEntry lib/cli/build.js
+295 silly gunzTarPerm modified mode [ 'lib/cli/build.js', 438, 420 ]
+296 silly gunzTarPerm extractEntry lib/cli/plugin.js
+297 silly gunzTarPerm modified mode [ 'lib/cli/plugin.js', 438, 420 ]
+298 silly gunzTarPerm extractEntry lib/cli/plugin.list.js
+299 silly gunzTarPerm modified mode [ 'lib/cli/plugin.list.js', 438, 420 ]
+300 silly gunzTarPerm extractEntry lib/cli/plugin.remove.js
+301 silly gunzTarPerm modified mode [ 'lib/cli/plugin.remove.js', 438, 420 ]
+302 silly gunzTarPerm extractEntry lib/cli/remote.build.js
+303 silly gunzTarPerm modified mode [ 'lib/cli/remote.build.js', 438, 420 ]
+304 silly gunzTarPerm extractEntry lib/cli/local.plugin.js
+305 silly gunzTarPerm modified mode [ 'lib/cli/local.plugin.js', 438, 420 ]
+306 silly gunzTarPerm extractEntry lib/cli/remote.install.js
+307 silly gunzTarPerm modified mode [ 'lib/cli/remote.install.js', 438, 420 ]
+308 silly gunzTarPerm extractEntry lib/cli/local.plugin.add.js
+309 silly gunzTarPerm modified mode [ 'lib/cli/local.plugin.add.js', 438, 420 ]
+310 silly gunzTarPerm extractEntry lib/cli/remote.js
+311 silly gunzTarPerm modified mode [ 'lib/cli/remote.js', 438, 420 ]
+312 silly gunzTarPerm extractEntry lib/cli/local.js
+313 silly gunzTarPerm modified mode [ 'lib/cli/local.js', 438, 420 ]
+314 silly gunzTarPerm extractEntry lib/cli/remote.login.js
+315 silly gunzTarPerm modified mode [ 'lib/cli/remote.login.js', 438, 420 ]
+316 silly gunzTarPerm extractEntry lib/cli/local.install.js
+317 silly gunzTarPerm modified mode [ 'lib/cli/local.install.js', 438, 420 ]
+318 silly gunzTarPerm extractEntry lib/cli/remote.logout.js
+319 silly gunzTarPerm modified mode [ 'lib/cli/remote.logout.js', 438, 420 ]
+320 silly gunzTarPerm extractEntry lib/cli/local.build.js
+321 silly gunzTarPerm modified mode [ 'lib/cli/local.build.js', 438, 420 ]
+322 silly gunzTarPerm extractEntry lib/cli/remote.run.js
+323 silly gunzTarPerm modified mode [ 'lib/cli/remote.run.js', 438, 420 ]
+324 silly gunzTarPerm extractEntry lib/cli/install.js
+325 silly gunzTarPerm modified mode [ 'lib/cli/install.js', 438, 420 ]
+326 silly gunzTarPerm extractEntry lib/cli/run.js
+327 silly gunzTarPerm modified mode [ 'lib/cli/run.js', 438, 420 ]
+328 silly gunzTarPerm extractEntry lib/cli/help.js
+329 silly gunzTarPerm modified mode [ 'lib/cli/help.js', 438, 420 ]
+330 silly gunzTarPerm extractEntry lib/cli/serve.js
+331 silly gunzTarPerm modified mode [ 'lib/cli/serve.js', 438, 420 ]
+332 silly gunzTarPerm extractEntry lib/cli/create.js
+333 silly gunzTarPerm modified mode [ 'lib/cli/create.js', 438, 420 ]
+334 silly gunzTarPerm extractEntry lib/cli/unknown.js
+335 silly gunzTarPerm modified mode [ 'lib/cli/unknown.js', 438, 420 ]
+336 silly gunzTarPerm extractEntry lib/cli/platform.update.js
+337 silly gunzTarPerm modified mode [ 'lib/cli/platform.update.js', 438, 420 ]
+338 silly gunzTarPerm extractEntry lib/cli/version.js
+339 silly gunzTarPerm modified mode [ 'lib/cli/version.js', 438, 420 ]
+340 silly gunzTarPerm extractEntry lib/cli/plugin.add.js
+341 silly gunzTarPerm modified mode [ 'lib/cli/plugin.add.js', 438, 420 ]
+342 silly gunzTarPerm extractEntry lib/cli/util/console.js
+343 silly gunzTarPerm modified mode [ 'lib/cli/util/console.js', 438, 420 ]
+344 silly gunzTarPerm extractEntry lib/common/config.js
+345 silly gunzTarPerm modified mode [ 'lib/common/config.js', 438, 420 ]
+346 silly gunzTarPerm extractEntry lib/common/config/global.js
+347 silly gunzTarPerm modified mode [ 'lib/common/config/global.js', 438, 420 ]
+348 silly gunzTarPerm extractEntry lib/common/config/local.js
+349 silly gunzTarPerm modified mode [ 'lib/common/config/local.js', 438, 420 ]
+350 silly gunzTarPerm extractEntry lib/phonegap/build.js
+351 silly gunzTarPerm modified mode [ 'lib/phonegap/build.js', 438, 420 ]
+352 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.list.js
+353 silly gunzTarPerm modified mode [ 'lib/phonegap/local.plugin.list.js', 438, 420 ]
+354 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.remove.js
+355 silly gunzTarPerm modified mode [ 'lib/phonegap/local.plugin.remove.js', 438, 420 ]
+356 silly gunzTarPerm extractEntry lib/phonegap/local.run.js
+357 silly gunzTarPerm modified mode [ 'lib/phonegap/local.run.js', 438, 420 ]
+358 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.add.js
+359 silly gunzTarPerm modified mode [ 'lib/phonegap/local.plugin.add.js', 438, 420 ]
+360 silly gunzTarPerm extractEntry lib/phonegap/create.js
+361 silly gunzTarPerm modified mode [ 'lib/phonegap/create.js', 438, 420 ]
+362 silly gunzTarPerm extractEntry lib/phonegap/remote.build.js
+363 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.build.js', 438, 420 ]
+364 silly gunzTarPerm extractEntry lib/phonegap/remote.install.js
+365 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.install.js', 438, 420 ]
+366 silly gunzTarPerm extractEntry lib/phonegap/remote.login.js
+367 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.login.js', 438, 420 ]
+368 silly gunzTarPerm extractEntry lib/phonegap/remote.logout.js
+369 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.logout.js', 438, 420 ]
+370 silly gunzTarPerm extractEntry lib/phonegap/local.install.js
+371 silly gunzTarPerm modified mode [ 'lib/phonegap/local.install.js', 438, 420 ]
+372 silly gunzTarPerm extractEntry lib/phonegap/remote.run.js
+373 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.run.js', 438, 420 ]
+374 silly gunzTarPerm extractEntry lib/phonegap/local.build.js
+375 silly gunzTarPerm modified mode [ 'lib/phonegap/local.build.js', 438, 420 ]
+376 silly gunzTarPerm extractEntry lib/phonegap/run.js
+377 silly gunzTarPerm modified mode [ 'lib/phonegap/run.js', 438, 420 ]
+378 silly gunzTarPerm extractEntry lib/phonegap/install.js
+379 silly gunzTarPerm modified mode [ 'lib/phonegap/install.js', 438, 420 ]
+380 silly gunzTarPerm extractEntry lib/phonegap/serve.js
+381 silly gunzTarPerm modified mode [ 'lib/phonegap/serve.js', 438, 420 ]
+382 silly gunzTarPerm extractEntry lib/phonegap/mode.js
+383 silly gunzTarPerm modified mode [ 'lib/phonegap/mode.js', 438, 420 ]
+384 silly gunzTarPerm extractEntry lib/phonegap/version.js
+385 silly gunzTarPerm modified mode [ 'lib/phonegap/version.js', 438, 420 ]
+386 silly gunzTarPerm extractEntry lib/phonegap/platform.update.js
+387 silly gunzTarPerm modified mode [ 'lib/phonegap/platform.update.js', 438, 420 ]
+388 silly gunzTarPerm extractEntry lib/phonegap/util/command.js
+389 silly gunzTarPerm modified mode [ 'lib/phonegap/util/command.js', 438, 420 ]
+390 silly gunzTarPerm extractEntry lib/phonegap/util/phonegap-build.js
+391 silly gunzTarPerm modified mode [ 'lib/phonegap/util/phonegap-build.js', 438, 420 ]
+392 silly gunzTarPerm extractEntry lib/phonegap/util/platform.js
+393 silly gunzTarPerm modified mode [ 'lib/phonegap/util/platform.js', 438, 420 ]
+394 silly gunzTarPerm extractEntry lib/phonegap/util/project.js
+395 silly gunzTarPerm modified mode [ 'lib/phonegap/util/project.js', 438, 420 ]
+396 silly gunzTarPerm extractEntry CONTRIBUTING.md
+397 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+398 silly gunzTarPerm extractEntry spec/cli.spec.js
+399 silly gunzTarPerm modified mode [ 'spec/cli.spec.js', 438, 420 ]
+400 silly gunzTarPerm extractEntry spec/main.spec.js
+401 silly gunzTarPerm modified mode [ 'spec/main.spec.js', 438, 420 ]
+402 silly gunzTarPerm extractEntry spec/phonegap.spec.js
+403 silly gunzTarPerm modified mode [ 'spec/phonegap.spec.js', 438, 420 ]
+404 silly gunzTarPerm extractEntry spec/cli/app.spec.js
+405 silly gunzTarPerm modified mode [ 'spec/cli/app.spec.js', 438, 420 ]
+406 silly gunzTarPerm extractEntry spec/cli/local.run.spec.js
+407 silly gunzTarPerm modified mode [ 'spec/cli/local.run.spec.js', 438, 420 ]
+408 silly gunzTarPerm extractEntry spec/cli/local.spec.js
+409 silly gunzTarPerm modified mode [ 'spec/cli/local.spec.js', 438, 420 ]
+410 silly gunzTarPerm extractEntry spec/cli/platform.spec.js
+411 silly gunzTarPerm modified mode [ 'spec/cli/platform.spec.js', 438, 420 ]
+412 silly gunzTarPerm extractEntry spec/cli/platform.update.spec.js
+413 silly gunzTarPerm modified mode [ 'spec/cli/platform.update.spec.js', 438, 420 ]
+414 silly gunzTarPerm extractEntry spec/cli/local.plugin.spec.js
+415 silly gunzTarPerm modified mode [ 'spec/cli/local.plugin.spec.js', 438, 420 ]
+416 silly gunzTarPerm extractEntry spec/cli/plugin.list.spec.js
+417 silly gunzTarPerm modified mode [ 'spec/cli/plugin.list.spec.js', 438, 420 ]
+418 silly gunzTarPerm extractEntry spec/cli/plugin.remove.spec.js
+419 silly gunzTarPerm modified mode [ 'spec/cli/plugin.remove.spec.js', 438, 420 ]
+420 silly gunzTarPerm extractEntry spec/cli/plugin.spec.js
+421 silly gunzTarPerm modified mode [ 'spec/cli/plugin.spec.js', 438, 420 ]
+422 silly gunzTarPerm extractEntry spec/cli/remote.build.spec.js
+423 silly gunzTarPerm modified mode [ 'spec/cli/remote.build.spec.js', 438, 420 ]
+424 silly gunzTarPerm extractEntry spec/cli/remote.install.spec.js
+425 silly gunzTarPerm modified mode [ 'spec/cli/remote.install.spec.js', 438, 420 ]
+426 silly gunzTarPerm extractEntry spec/cli/local.plugin.remove.spec.js
+427 silly gunzTarPerm modified mode [ 'spec/cli/local.plugin.remove.spec.js', 438, 420 ]
+428 silly gunzTarPerm extractEntry spec/cli/remote.login.spec.js
+429 silly gunzTarPerm modified mode [ 'spec/cli/remote.login.spec.js', 438, 420 ]
+430 silly gunzTarPerm extractEntry spec/cli/local.plugin.list.spec.js
+431 silly gunzTarPerm modified mode [ 'spec/cli/local.plugin.list.spec.js', 438, 420 ]
+432 silly gunzTarPerm extractEntry spec/cli/remote.logout.spec.js
+433 silly gunzTarPerm modified mode [ 'spec/cli/remote.logout.spec.js', 438, 420 ]
+434 silly gunzTarPerm extractEntry spec/cli/local.plugin.add.spec.js
+435 silly gunzTarPerm modified mode [ 'spec/cli/local.plugin.add.spec.js', 438, 420 ]
+436 silly gunzTarPerm extractEntry spec/cli/remote.run.spec.js
+437 silly gunzTarPerm modified mode [ 'spec/cli/remote.run.spec.js', 438, 420 ]
+438 silly gunzTarPerm extractEntry spec/cli/local.install.spec.js
+439 silly gunzTarPerm modified mode [ 'spec/cli/local.install.spec.js', 438, 420 ]
+440 silly gunzTarPerm extractEntry spec/cli/remote.spec.js
+441 silly gunzTarPerm modified mode [ 'spec/cli/remote.spec.js', 438, 420 ]
+442 silly gunzTarPerm extractEntry spec/cli/local.build.spec.js
+443 silly gunzTarPerm modified mode [ 'spec/cli/local.build.spec.js', 438, 420 ]
+444 silly gunzTarPerm extractEntry spec/cli/run.spec.js
+445 silly gunzTarPerm modified mode [ 'spec/cli/run.spec.js', 438, 420 ]
+446 silly gunzTarPerm extractEntry spec/cli/install.spec.js
+447 silly gunzTarPerm modified mode [ 'spec/cli/install.spec.js', 438, 420 ]
+448 silly gunzTarPerm extractEntry spec/cli/serve.spec.js
+449 silly gunzTarPerm modified mode [ 'spec/cli/serve.spec.js', 438, 420 ]
+450 silly gunzTarPerm extractEntry spec/cli/help.spec.js
+451 silly gunzTarPerm modified mode [ 'spec/cli/help.spec.js', 438, 420 ]
+452 silly gunzTarPerm extractEntry spec/cli/unknown.spec.js
+453 silly gunzTarPerm modified mode [ 'spec/cli/unknown.spec.js', 438, 420 ]
+454 silly gunzTarPerm extractEntry spec/cli/create.spec.js
+455 silly gunzTarPerm modified mode [ 'spec/cli/create.spec.js', 438, 420 ]
+456 silly gunzTarPerm extractEntry spec/cli/verbose.spec.js
+457 silly gunzTarPerm modified mode [ 'spec/cli/verbose.spec.js', 438, 420 ]
+458 silly gunzTarPerm extractEntry spec/cli/build.spec.js
+459 silly gunzTarPerm modified mode [ 'spec/cli/build.spec.js', 438, 420 ]
+460 silly gunzTarPerm extractEntry spec/cli/version.spec.js
+461 silly gunzTarPerm modified mode [ 'spec/cli/version.spec.js', 438, 420 ]
+462 silly gunzTarPerm extractEntry spec/cli/plugin.add.spec.js
+463 silly gunzTarPerm modified mode [ 'spec/cli/plugin.add.spec.js', 438, 420 ]
+464 silly gunzTarPerm extractEntry spec/common/config/global.spec.js
+465 silly gunzTarPerm modified mode [ 'spec/common/config/global.spec.js', 438, 420 ]
+466 silly gunzTarPerm extractEntry spec/common/config/local.spec.js
+467 silly gunzTarPerm modified mode [ 'spec/common/config/local.spec.js', 438, 420 ]
+468 silly gunzTarPerm extractEntry spec/phonegap/app.spec.js
+469 silly gunzTarPerm modified mode [ 'spec/phonegap/app.spec.js', 438, 420 ]
+470 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.remove.spec.js
+471 silly gunzTarPerm modified mode [ 'spec/phonegap/local.plugin.remove.spec.js', 438, 420 ]
+472 silly gunzTarPerm extractEntry spec/phonegap/local.run.spec.js
+473 silly gunzTarPerm modified mode [ 'spec/phonegap/local.run.spec.js', 438, 420 ]
+474 silly gunzTarPerm extractEntry spec/phonegap/mode.spec.js
+475 silly gunzTarPerm modified mode [ 'spec/phonegap/mode.spec.js', 438, 420 ]
+476 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.list.spec.js
+477 silly gunzTarPerm modified mode [ 'spec/phonegap/local.plugin.list.spec.js', 438, 420 ]
+478 silly gunzTarPerm extractEntry spec/phonegap/build.spec.js
+479 silly gunzTarPerm modified mode [ 'spec/phonegap/build.spec.js', 438, 420 ]
+480 silly gunzTarPerm extractEntry spec/phonegap/plugin.list.spec.js
+481 silly gunzTarPerm modified mode [ 'spec/phonegap/plugin.list.spec.js', 438, 420 ]
+482 silly gunzTarPerm extractEntry spec/phonegap/plugin.remove.spec.js
+483 silly gunzTarPerm modified mode [ 'spec/phonegap/plugin.remove.spec.js', 438, 420 ]
+484 silly gunzTarPerm extractEntry spec/phonegap/remote.build.spec.js
+485 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.build.spec.js', 438, 420 ]
+486 silly gunzTarPerm extractEntry spec/phonegap/remote.install.spec.js
+487 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.install.spec.js', 438, 420 ]
+488 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.add.spec.js
+489 silly gunzTarPerm modified mode [ 'spec/phonegap/local.plugin.add.spec.js', 438, 420 ]
+490 silly gunzTarPerm extractEntry spec/phonegap/remote.login.spec.js
+491 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.login.spec.js', 438, 420 ]
+492 silly gunzTarPerm extractEntry spec/phonegap/local.install.spec.js
+493 silly gunzTarPerm modified mode [ 'spec/phonegap/local.install.spec.js', 438, 420 ]
+494 silly gunzTarPerm extractEntry spec/phonegap/remote.logout.spec.js
+495 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.logout.spec.js', 438, 420 ]
+496 silly gunzTarPerm extractEntry spec/phonegap/local.build.spec.js
+497 silly gunzTarPerm modified mode [ 'spec/phonegap/local.build.spec.js', 438, 420 ]
+498 silly gunzTarPerm extractEntry spec/phonegap/remote.run.spec.js
+499 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.run.spec.js', 438, 420 ]
+500 silly gunzTarPerm extractEntry spec/phonegap/install.spec.js
+501 silly gunzTarPerm modified mode [ 'spec/phonegap/install.spec.js', 438, 420 ]
+502 silly gunzTarPerm extractEntry spec/phonegap/run.spec.js
+503 silly gunzTarPerm modified mode [ 'spec/phonegap/run.spec.js', 438, 420 ]
+504 silly gunzTarPerm extractEntry spec/phonegap/create.spec.js
+505 silly gunzTarPerm modified mode [ 'spec/phonegap/create.spec.js', 438, 420 ]
+506 silly gunzTarPerm extractEntry spec/phonegap/serve.spec.js
+507 silly gunzTarPerm modified mode [ 'spec/phonegap/serve.spec.js', 438, 420 ]
+508 silly gunzTarPerm extractEntry spec/phonegap/platform.update.spec.js
+509 silly gunzTarPerm modified mode [ 'spec/phonegap/platform.update.spec.js', 438, 420 ]
+510 silly gunzTarPerm extractEntry spec/phonegap/version.spec.js
+511 silly gunzTarPerm modified mode [ 'spec/phonegap/version.spec.js', 438, 420 ]
+512 silly gunzTarPerm extractEntry spec/phonegap/plugin.add.spec.js
+513 silly gunzTarPerm modified mode [ 'spec/phonegap/plugin.add.spec.js', 438, 420 ]
+514 silly gunzTarPerm extractEntry spec/phonegap/util/platform.spec.js
+515 silly gunzTarPerm modified mode [ 'spec/phonegap/util/platform.spec.js', 438, 420 ]
+516 silly gunzTarPerm extractEntry spec/phonegap/util/project.spec.js
+517 silly gunzTarPerm modified mode [ 'spec/phonegap/util/project.spec.js', 438, 420 ]
+518 silly lockFile 7f41c95f-he-phonegap-3-5-0-0-20-1-package tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package
+519 silly lockFile 7f41c95f-he-phonegap-3-5-0-0-20-1-package tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package
+520 silly lockFile e0263b55-honegap-3-5-0-0-20-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+521 silly lockFile e0263b55-honegap-3-5-0-0-20-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+522 verbose chmod C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz 644
+523 silly chown skipping for windows C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+524 silly lockFile 0007d09c-onegap-phonegap-3-5-0-0-20-1-tgz https://registry.npmjs.org/phonegap/-/phonegap-3.5.0-0.20.1.tgz
+525 silly lockFile 0007d09c-onegap-phonegap-3-5-0-0-20-1-tgz https://registry.npmjs.org/phonegap/-/phonegap-3.5.0-0.20.1.tgz
+526 silly lockFile 17d9d8ce-phonegap-3-5-0-0-20-1 phonegap@3.5.0-0.20.1
+527 silly lockFile 17d9d8ce-phonegap-3-5-0-0-20-1 phonegap@3.5.0-0.20.1
+528 silly lockFile 3a6257f3-phonegap phonegap@
+529 silly lockFile 3a6257f3-phonegap phonegap@
+530 silly resolved [ { name: 'phonegap',
+530 silly resolved     description: 'PhoneGap command-line interface and node.js library.',
+530 silly resolved     version: '3.5.0-0.20.1',
+530 silly resolved     homepage: 'http://github.com/phonegap/phonegap-cli',
+530 silly resolved     repository:
+530 silly resolved      { type: 'git',
+530 silly resolved        url: 'git://github.com/phonegap/phonegap-cli.git' },
+530 silly resolved     keywords:
+530 silly resolved      [ 'cli',
+530 silly resolved        'cordova',
+530 silly resolved        'phonegap',
+530 silly resolved        'phonegap build',
+530 silly resolved        'phonegap/build' ],
+530 silly resolved     preferGlobal: 'true',
+530 silly resolved     main: './lib/main.js',
+530 silly resolved     bin: { phonegap: './bin/phonegap.js' },
+530 silly resolved     scripts: { test: 'jasmine-node --color spec' },
+530 silly resolved     engineStrict: 'true',
+530 silly resolved     engines: { node: '>=0.10.0' },
+530 silly resolved     dependencies:
+530 silly resolved      { colors: '0.6.0-1',
+530 silly resolved        cordova: '3.5.0-0.2.4',
+530 silly resolved        'cordova-lib': 'lorinbeer/cordova-lib.git#pg.3.5.0',
+530 silly resolved        'connect-phonegap': '0.11.0',
+530 silly resolved        optimist: '0.6.0',
+530 silly resolved        'phonegap-build': '0.8.4',
+530 silly resolved        pluralize: '0.0.4',
+530 silly resolved        prompt: '0.2.11',
+530 silly resolved        'qrcode-terminal': '0.9.4',
+530 silly resolved        semver: '1.1.0',
+530 silly resolved        shelljs: '0.1.4' },
+530 silly resolved     devDependencies: { 'jasmine-node': '1.8.0', chdir: '0.0.x' },
+530 silly resolved     optionalDependencies: {},
+530 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+530 silly resolved     readme: '# PhoneGap CLI [![Build Status][travis-ci-img]][travis-ci-url]\n\n> PhoneGap command-line interface and Node.js library.\n\n\n## Command-line\n\n### Requirements\n\n- [Install node.js](http://nodejs.org/) version `>=0.10.x`\n- [Install ios-sim](https://github.com/phonegap/ios-sim#installation) to deploy apps to the iOS simulator.\n\n### Install\n\n    $ npm install -g phonegap\n\n### Getting Started\n\n    $ phonegap create my-app    # create a PhoneGap project\n    $ cd my-app                 # change to project directory\n    $ phonegap run ios          # build and install the app to iOS\n\n### Usage\n\n    Usage: phonegap [options] [commands]\n\n    Description:\n\n      PhoneGap command-line tool.\n\n    Commands:\n\n      create <path>        create a phonegap project\n      build <platform>     build the project for specific platform\n      install <platform>   install the project on a specific platform\n      run <platform>       build and install the projectfor specific platform\n      serve                serve a phonegap project\n      local [command]      development on local system\n      remote [command]     development in cloud with phonegap/build\n      platform [command]   update a platform version\n      help [command]       output usage information\n      version              output version number\n\n    Options:\n\n      -d, --verbose        allow verbose output\n      -v, --version        output version number\n      -h, --help           output usage information\n\n    Platforms:\n\n      keyword            | local environment | remote environment\n      -------------------|-------------------|-------------------\n      android            | ✔                 | ✔\n      blackberry10       | ✔                 | ✖\n      ios                | ✔                 | ✔\n      wp8                | ✔                 | ✔\n\n\n    Examples:\n\n      $ phonegap help create\n      $ phonegap help remote build\n      $ phonegap create path/to/my-app\n      $ phonegap remote build android\n\n#### Local Usage\n\n    Usage: phonegap local [command]\n\n    Description:\n\n      Executes the command on the local system.\n\n      This requires that platform SDK is correctly installed.\n\n    Commands:\n\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n      plugin <command>     add, remove, and list plugins\n\n    Examples:\n\n      $ phonegap local build android\n      $ phonegap local run android\n      $ phonegap local plugin list\n\n#### Remote Usage\n\n    Usage: phonegap remote [command]\n\n    Description:\n\n      Executes the command remotely using the cloud-based PhoneGap/Build service.\n\n    Commands:\n\n      login                login to PhoneGap/Build\n      logout               logout of PhoneGap/Build\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n\n    Examples:\n\n      $ phonegap remote login\n      $ phonegap remote build android\n      $ phonegap remote run android\n\n## Node Library\n\n### Usage\n\n    var phonegap = require(\'phonegap\');\n\n## FAQ\n\n### phonegap: command not found\n\n#### Problem\n\nThe PhoneGap CLI installs successfully but you do not have a command `phonegap`.\n\n#### Reason\n\nDepending on how `node` and `npm` were installed, your globally installed npm\nmodules may not be in your `PATH`.\n\n#### Solution\n\nAt the bottom of your `npm install -g phonegap` installation log, you will see the following:\n\n    ...\n    /usr/local/share/npm/bin/phonegap -> /usr/local/share/npm/lib/node_modules/phonegap/bin/phonegap.js\n    ...\n\n_(Your path may be slightly different)_\n\nOpen `~/.profile` or `~/.bashrc`, depending on what exists on your system, and add following line:\n\n    export PATH=$PATH:/usr/local/share/npm/bin\n\nOpen a new terminal tab or type the following command:\n\n    $ source ~/.profile\n    or\n    $ source ~/.bashrc\n\nThe command `phonegap` should now be available to you.\n\n### The provided path is not an Android project\n\n#### Problem\n\nYou receive the following error message when building an Android project:\n\n    throw new Error(\'The provided path "\' + project + \'" is not an Android\n\n#### Reason\n\nThe first time that you build for a platform, the framework is downloaded from Apache Cordova.\n\nThe framework is stored locally in your home directory, such as `~/.cordova/lib`.\n\nSometimes the framework is corrupted during the download. It can exist for two\nknow reasons:\n\n1. Your Android SDK environment is not properly configured.\n1. Unknown issue related to Apache\'s servers or the untar operation.\n\n#### Solution\n\nFirst, you must properly configure your Android environment by following\nthe [platform setup guide](http://docs.phonegap.com/en/3.0.0/guide_platforms_android_index.md.html).\n\nNext, you must delete the cached Cordova Android framework (`x.x.x` is your version):\n\n    ~/.cordova/lib/android/cordova/x.x.x\n\nNext, you can try to rebuild the project. Enabling verbose mode is sometimes helpful:\n\n    $ phonegap build android --verbose\n\n## Upgrading Cordova\n\nThere are a few steps that should be taken when upgrading to a new version of the\n[cordova-cli](http://github.com/apache/cordova-cli).\n\n1. Update the `package.json` dependencies version for `cordova`.\n\n        {\n          "dependencies": {\n            "cordova": "3.1.0"\n          }\n        }\n\n1. Update the `package.json` version.\n\n        {\n          "version": "3.1.0-0.15.0"\n        }\n\n1. Run the tests.\n\n        $ npm test\n\n1. Commit stating the version increment.\n\n        $ git commit -am "Version 3.1.0-0.15.0"\n\n1. Tag the version commit.\n\n        $ git tag 3.1.0-0.15.0\n\n1. Update the [PhoneGap Hello World App](https://github.com/phonegap/phonegap-app-hello-world) to match the new version.\n  - See [Update instructions](https://github.com/phonegap/phonegap-app-hello-world#updating-the-application).\n  - In the above example, we would update the app to `3.1.0`.\n1. Manually test that the latest Hello World app is lazy-loaded.\n\n        # Link the phonegap-cli for easier development (only need to do once).\n\n        $ cd phonegap-cli/\n        $ [sudo] npm link .\n\n        # Manually test and verify hello world app is lazy-loaded.\n\n        $ phonegap create my-app\n        [phonegap] missing library phonegap/www/3.1.0\n        [phonegap] downloading https://github.com/phonegap/phonegap-app-hello-world/archive/3.1.0.tar.gz...\n        [phonegap] created project at /Users/mwbrooks/Development/sandbox/my-app\n\n        $ cd my-app/\n        $ phonegap run ios\n\n1. Push the git commit after the Hello World has been updated.\n\n        $ git push phonegap master\n\n1. Publish the npm release.\n\n        $ npm publish\n\n[travis-ci-img]: https://travis-ci.org/phonegap/phonegap-cli.png?branch=master\n[travis-ci-url]: http://travis-ci.org/phonegap/phonegap-cli\n\n',
+530 silly resolved     readmeFilename: 'README.md',
+530 silly resolved     bugs: { url: 'https://github.com/phonegap/phonegap-cli/issues' },
+530 silly resolved     _id: 'phonegap@3.5.0-0.20.1',
+530 silly resolved     dist: { shasum: '8544a3624e0e947e6b95be6f9eed5e2ebc23543f' },
+530 silly resolved     _from: 'phonegap@',
+530 silly resolved     _resolved: 'https://registry.npmjs.org/phonegap/-/phonegap-3.5.0-0.20.1.tgz' } ]
+531 info install phonegap@3.5.0-0.20.1 into C:\Users\gianpaolo\AppData\Roaming\npm
+532 info installOne phonegap@3.5.0-0.20.1
+533 info C:\Users\gianpaolo\AppData\Roaming\npm\node_modules\phonegap unbuild
+534 verbose tar unpack C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+535 silly lockFile e9f264a8-oaming-npm-node-modules-phonegap tar://C:\Users\gianpaolo\AppData\Roaming\npm\node_modules\phonegap
+536 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm\node_modules\phonegap C:\Users\gianpaolo\AppData\Roaming\npm-cache\e9f264a8-oaming-npm-node-modules-phonegap.lock
+537 silly lockFile e0263b55-honegap-3-5-0-0-20-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+538 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\e0263b55-honegap-3-5-0-0-20-1-package-tgz.lock
+539 silly gunzTarPerm modes [ '755', '644' ]
+540 silly gunzTarPerm extractEntry package.json
+541 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+542 silly gunzTarPerm extractEntry .npmignore
+543 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+544 silly gunzTarPerm extractEntry README.md
+545 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+546 silly gunzTarPerm extractEntry LICENSE
+547 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+548 silly gunzTarPerm extractEntry COPYRIGHT
+549 silly gunzTarPerm modified mode [ 'COPYRIGHT', 438, 420 ]
+550 silly gunzTarPerm extractEntry NOTICE
+551 silly gunzTarPerm modified mode [ 'NOTICE', 438, 420 ]
+552 silly gunzTarPerm extractEntry .travis.yml
+553 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+554 silly gunzTarPerm extractEntry bin/phonegap.js
+555 silly gunzTarPerm modified mode [ 'bin/phonegap.js', 438, 420 ]
+556 silly gunzTarPerm extractEntry doc/cli/help.platform.txt
+557 silly gunzTarPerm modified mode [ 'doc/cli/help.platform.txt', 438, 420 ]
+558 silly gunzTarPerm extractEntry doc/cli/help.build.txt
+559 silly gunzTarPerm modified mode [ 'doc/cli/help.build.txt', 438, 420 ]
+560 silly gunzTarPerm extractEntry doc/cli/help.install.txt
+561 silly gunzTarPerm modified mode [ 'doc/cli/help.install.txt', 438, 420 ]
+562 silly gunzTarPerm extractEntry doc/cli/help.local.build.txt
+563 silly gunzTarPerm modified mode [ 'doc/cli/help.local.build.txt', 438, 420 ]
+564 silly gunzTarPerm extractEntry doc/cli/help.local.install.txt
+565 silly gunzTarPerm modified mode [ 'doc/cli/help.local.install.txt', 438, 420 ]
+566 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.add.txt
+567 silly gunzTarPerm modified mode [ 'doc/cli/help.local.plugin.add.txt', 438, 420 ]
+568 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.list.txt
+569 silly gunzTarPerm modified mode [ 'doc/cli/help.local.plugin.list.txt', 438, 420 ]
+570 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.remove.txt
+571 silly gunzTarPerm modified mode [ 'doc/cli/help.local.plugin.remove.txt', 438, 420 ]
+572 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.txt
+573 silly gunzTarPerm modified mode [ 'doc/cli/help.local.plugin.txt', 438, 420 ]
+574 silly gunzTarPerm extractEntry doc/cli/help.local.run.txt
+575 silly gunzTarPerm modified mode [ 'doc/cli/help.local.run.txt', 438, 420 ]
+576 silly gunzTarPerm extractEntry doc/cli/help.local.txt
+577 silly gunzTarPerm modified mode [ 'doc/cli/help.local.txt', 438, 420 ]
+578 silly gunzTarPerm extractEntry doc/cli/help.create.txt
+579 silly gunzTarPerm modified mode [ 'doc/cli/help.create.txt', 438, 420 ]
+580 silly gunzTarPerm extractEntry doc/cli/help.platform.update.txt
+581 silly gunzTarPerm modified mode [ 'doc/cli/help.platform.update.txt', 438, 420 ]
+582 silly gunzTarPerm extractEntry doc/cli/help.remote.build.txt
+583 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.build.txt', 438, 420 ]
+584 silly gunzTarPerm extractEntry doc/cli/help.remote.install.txt
+585 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.install.txt', 438, 420 ]
+586 silly gunzTarPerm extractEntry doc/cli/help.remote.login.txt
+587 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.login.txt', 438, 420 ]
+588 silly gunzTarPerm extractEntry doc/cli/help.remote.logout.txt
+589 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.logout.txt', 438, 420 ]
+590 silly gunzTarPerm extractEntry doc/cli/help.remote.run.txt
+591 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.run.txt', 438, 420 ]
+592 silly gunzTarPerm extractEntry doc/cli/help.remote.txt
+593 silly gunzTarPerm modified mode [ 'doc/cli/help.remote.txt', 438, 420 ]
+594 silly gunzTarPerm extractEntry doc/cli/help.run.txt
+595 silly gunzTarPerm modified mode [ 'doc/cli/help.run.txt', 438, 420 ]
+596 silly gunzTarPerm extractEntry doc/cli/help.serve.txt
+597 silly gunzTarPerm modified mode [ 'doc/cli/help.serve.txt', 438, 420 ]
+598 silly gunzTarPerm extractEntry doc/cli/help.txt
+599 silly gunzTarPerm modified mode [ 'doc/cli/help.txt', 438, 420 ]
+600 silly gunzTarPerm extractEntry lib/cli.js
+601 silly gunzTarPerm modified mode [ 'lib/cli.js', 438, 420 ]
+602 silly gunzTarPerm extractEntry lib/main.js
+603 silly gunzTarPerm modified mode [ 'lib/main.js', 438, 420 ]
+604 silly gunzTarPerm extractEntry lib/phonegap.js
+605 silly gunzTarPerm modified mode [ 'lib/phonegap.js', 438, 420 ]
+606 silly gunzTarPerm extractEntry lib/cli/argv.js
+607 silly gunzTarPerm modified mode [ 'lib/cli/argv.js', 438, 420 ]
+608 silly gunzTarPerm extractEntry lib/cli/local.plugin.remove.js
+609 silly gunzTarPerm modified mode [ 'lib/cli/local.plugin.remove.js', 438, 420 ]
+610 silly gunzTarPerm extractEntry lib/cli/local.run.js
+611 silly gunzTarPerm modified mode [ 'lib/cli/local.run.js', 438, 420 ]
+612 silly gunzTarPerm extractEntry lib/cli/platform.js
+613 silly gunzTarPerm modified mode [ 'lib/cli/platform.js', 438, 420 ]
+614 silly gunzTarPerm extractEntry lib/cli/local.plugin.list.js
+615 silly gunzTarPerm modified mode [ 'lib/cli/local.plugin.list.js', 438, 420 ]
+616 silly gunzTarPerm extractEntry lib/cli/build.js
+617 silly gunzTarPerm modified mode [ 'lib/cli/build.js', 438, 420 ]
+618 silly gunzTarPerm extractEntry lib/cli/plugin.js
+619 silly gunzTarPerm modified mode [ 'lib/cli/plugin.js', 438, 420 ]
+620 silly gunzTarPerm extractEntry lib/cli/plugin.list.js
+621 silly gunzTarPerm modified mode [ 'lib/cli/plugin.list.js', 438, 420 ]
+622 silly gunzTarPerm extractEntry lib/cli/plugin.remove.js
+623 silly gunzTarPerm modified mode [ 'lib/cli/plugin.remove.js', 438, 420 ]
+624 silly gunzTarPerm extractEntry lib/cli/remote.build.js
+625 silly gunzTarPerm modified mode [ 'lib/cli/remote.build.js', 438, 420 ]
+626 silly gunzTarPerm extractEntry lib/cli/local.plugin.js
+627 silly gunzTarPerm modified mode [ 'lib/cli/local.plugin.js', 438, 420 ]
+628 silly gunzTarPerm extractEntry lib/cli/remote.install.js
+629 silly gunzTarPerm modified mode [ 'lib/cli/remote.install.js', 438, 420 ]
+630 silly gunzTarPerm extractEntry lib/cli/local.plugin.add.js
+631 silly gunzTarPerm modified mode [ 'lib/cli/local.plugin.add.js', 438, 420 ]
+632 silly gunzTarPerm extractEntry lib/cli/remote.js
+633 silly gunzTarPerm modified mode [ 'lib/cli/remote.js', 438, 420 ]
+634 silly gunzTarPerm extractEntry lib/cli/local.js
+635 silly gunzTarPerm modified mode [ 'lib/cli/local.js', 438, 420 ]
+636 silly gunzTarPerm extractEntry lib/cli/remote.login.js
+637 silly gunzTarPerm modified mode [ 'lib/cli/remote.login.js', 438, 420 ]
+638 silly gunzTarPerm extractEntry lib/cli/local.install.js
+639 silly gunzTarPerm modified mode [ 'lib/cli/local.install.js', 438, 420 ]
+640 silly gunzTarPerm extractEntry lib/cli/remote.logout.js
+641 silly gunzTarPerm modified mode [ 'lib/cli/remote.logout.js', 438, 420 ]
+642 silly gunzTarPerm extractEntry lib/cli/local.build.js
+643 silly gunzTarPerm modified mode [ 'lib/cli/local.build.js', 438, 420 ]
+644 silly gunzTarPerm extractEntry lib/cli/remote.run.js
+645 silly gunzTarPerm modified mode [ 'lib/cli/remote.run.js', 438, 420 ]
+646 silly gunzTarPerm extractEntry lib/cli/install.js
+647 silly gunzTarPerm modified mode [ 'lib/cli/install.js', 438, 420 ]
+648 silly gunzTarPerm extractEntry lib/cli/run.js
+649 silly gunzTarPerm modified mode [ 'lib/cli/run.js', 438, 420 ]
+650 silly gunzTarPerm extractEntry lib/cli/help.js
+651 silly gunzTarPerm modified mode [ 'lib/cli/help.js', 438, 420 ]
+652 silly gunzTarPerm extractEntry lib/cli/serve.js
+653 silly gunzTarPerm modified mode [ 'lib/cli/serve.js', 438, 420 ]
+654 silly gunzTarPerm extractEntry lib/cli/create.js
+655 silly gunzTarPerm modified mode [ 'lib/cli/create.js', 438, 420 ]
+656 silly gunzTarPerm extractEntry lib/cli/unknown.js
+657 silly gunzTarPerm modified mode [ 'lib/cli/unknown.js', 438, 420 ]
+658 silly gunzTarPerm extractEntry lib/cli/platform.update.js
+659 silly gunzTarPerm modified mode [ 'lib/cli/platform.update.js', 438, 420 ]
+660 silly gunzTarPerm extractEntry lib/cli/version.js
+661 silly gunzTarPerm modified mode [ 'lib/cli/version.js', 438, 420 ]
+662 silly gunzTarPerm extractEntry lib/cli/plugin.add.js
+663 silly gunzTarPerm modified mode [ 'lib/cli/plugin.add.js', 438, 420 ]
+664 silly gunzTarPerm extractEntry lib/cli/util/console.js
+665 silly gunzTarPerm modified mode [ 'lib/cli/util/console.js', 438, 420 ]
+666 silly gunzTarPerm extractEntry lib/common/config.js
+667 silly gunzTarPerm modified mode [ 'lib/common/config.js', 438, 420 ]
+668 silly gunzTarPerm extractEntry lib/common/config/global.js
+669 silly gunzTarPerm modified mode [ 'lib/common/config/global.js', 438, 420 ]
+670 silly gunzTarPerm extractEntry lib/common/config/local.js
+671 silly gunzTarPerm modified mode [ 'lib/common/config/local.js', 438, 420 ]
+672 silly gunzTarPerm extractEntry lib/phonegap/build.js
+673 silly gunzTarPerm modified mode [ 'lib/phonegap/build.js', 438, 420 ]
+674 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.list.js
+675 silly gunzTarPerm modified mode [ 'lib/phonegap/local.plugin.list.js', 438, 420 ]
+676 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.remove.js
+677 silly gunzTarPerm modified mode [ 'lib/phonegap/local.plugin.remove.js', 438, 420 ]
+678 silly gunzTarPerm extractEntry lib/phonegap/local.run.js
+679 silly gunzTarPerm modified mode [ 'lib/phonegap/local.run.js', 438, 420 ]
+680 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.add.js
+681 silly gunzTarPerm modified mode [ 'lib/phonegap/local.plugin.add.js', 438, 420 ]
+682 silly gunzTarPerm extractEntry lib/phonegap/create.js
+683 silly gunzTarPerm modified mode [ 'lib/phonegap/create.js', 438, 420 ]
+684 silly gunzTarPerm extractEntry lib/phonegap/remote.build.js
+685 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.build.js', 438, 420 ]
+686 silly gunzTarPerm extractEntry lib/phonegap/remote.install.js
+687 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.install.js', 438, 420 ]
+688 silly gunzTarPerm extractEntry lib/phonegap/remote.login.js
+689 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.login.js', 438, 420 ]
+690 silly gunzTarPerm extractEntry lib/phonegap/remote.logout.js
+691 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.logout.js', 438, 420 ]
+692 silly gunzTarPerm extractEntry lib/phonegap/local.install.js
+693 silly gunzTarPerm modified mode [ 'lib/phonegap/local.install.js', 438, 420 ]
+694 silly gunzTarPerm extractEntry lib/phonegap/remote.run.js
+695 silly gunzTarPerm modified mode [ 'lib/phonegap/remote.run.js', 438, 420 ]
+696 silly gunzTarPerm extractEntry lib/phonegap/local.build.js
+697 silly gunzTarPerm modified mode [ 'lib/phonegap/local.build.js', 438, 420 ]
+698 silly gunzTarPerm extractEntry lib/phonegap/run.js
+699 silly gunzTarPerm modified mode [ 'lib/phonegap/run.js', 438, 420 ]
+700 silly gunzTarPerm extractEntry lib/phonegap/install.js
+701 silly gunzTarPerm modified mode [ 'lib/phonegap/install.js', 438, 420 ]
+702 silly gunzTarPerm extractEntry lib/phonegap/serve.js
+703 silly gunzTarPerm modified mode [ 'lib/phonegap/serve.js', 438, 420 ]
+704 silly gunzTarPerm extractEntry lib/phonegap/mode.js
+705 silly gunzTarPerm modified mode [ 'lib/phonegap/mode.js', 438, 420 ]
+706 silly gunzTarPerm extractEntry lib/phonegap/version.js
+707 silly gunzTarPerm modified mode [ 'lib/phonegap/version.js', 438, 420 ]
+708 silly gunzTarPerm extractEntry lib/phonegap/platform.update.js
+709 silly gunzTarPerm modified mode [ 'lib/phonegap/platform.update.js', 438, 420 ]
+710 silly gunzTarPerm extractEntry lib/phonegap/util/command.js
+711 silly gunzTarPerm modified mode [ 'lib/phonegap/util/command.js', 438, 420 ]
+712 silly gunzTarPerm extractEntry lib/phonegap/util/phonegap-build.js
+713 silly gunzTarPerm modified mode [ 'lib/phonegap/util/phonegap-build.js', 438, 420 ]
+714 silly gunzTarPerm extractEntry lib/phonegap/util/platform.js
+715 silly gunzTarPerm modified mode [ 'lib/phonegap/util/platform.js', 438, 420 ]
+716 silly gunzTarPerm extractEntry lib/phonegap/util/project.js
+717 silly gunzTarPerm modified mode [ 'lib/phonegap/util/project.js', 438, 420 ]
+718 silly gunzTarPerm extractEntry CONTRIBUTING.md
+719 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+720 silly gunzTarPerm extractEntry spec/cli.spec.js
+721 silly gunzTarPerm modified mode [ 'spec/cli.spec.js', 438, 420 ]
+722 silly gunzTarPerm extractEntry spec/main.spec.js
+723 silly gunzTarPerm modified mode [ 'spec/main.spec.js', 438, 420 ]
+724 silly gunzTarPerm extractEntry spec/phonegap.spec.js
+725 silly gunzTarPerm modified mode [ 'spec/phonegap.spec.js', 438, 420 ]
+726 silly gunzTarPerm extractEntry spec/cli/app.spec.js
+727 silly gunzTarPerm modified mode [ 'spec/cli/app.spec.js', 438, 420 ]
+728 silly gunzTarPerm extractEntry spec/cli/local.run.spec.js
+729 silly gunzTarPerm modified mode [ 'spec/cli/local.run.spec.js', 438, 420 ]
+730 silly gunzTarPerm extractEntry spec/cli/local.spec.js
+731 silly gunzTarPerm modified mode [ 'spec/cli/local.spec.js', 438, 420 ]
+732 silly gunzTarPerm extractEntry spec/cli/platform.spec.js
+733 silly gunzTarPerm modified mode [ 'spec/cli/platform.spec.js', 438, 420 ]
+734 silly gunzTarPerm extractEntry spec/cli/platform.update.spec.js
+735 silly gunzTarPerm modified mode [ 'spec/cli/platform.update.spec.js', 438, 420 ]
+736 silly gunzTarPerm extractEntry spec/cli/local.plugin.spec.js
+737 silly gunzTarPerm modified mode [ 'spec/cli/local.plugin.spec.js', 438, 420 ]
+738 silly gunzTarPerm extractEntry spec/cli/plugin.list.spec.js
+739 silly gunzTarPerm modified mode [ 'spec/cli/plugin.list.spec.js', 438, 420 ]
+740 silly gunzTarPerm extractEntry spec/cli/plugin.remove.spec.js
+741 silly gunzTarPerm modified mode [ 'spec/cli/plugin.remove.spec.js', 438, 420 ]
+742 silly gunzTarPerm extractEntry spec/cli/plugin.spec.js
+743 silly gunzTarPerm modified mode [ 'spec/cli/plugin.spec.js', 438, 420 ]
+744 silly gunzTarPerm extractEntry spec/cli/remote.build.spec.js
+745 silly gunzTarPerm modified mode [ 'spec/cli/remote.build.spec.js', 438, 420 ]
+746 silly gunzTarPerm extractEntry spec/cli/remote.install.spec.js
+747 silly gunzTarPerm modified mode [ 'spec/cli/remote.install.spec.js', 438, 420 ]
+748 silly gunzTarPerm extractEntry spec/cli/local.plugin.remove.spec.js
+749 silly gunzTarPerm modified mode [ 'spec/cli/local.plugin.remove.spec.js', 438, 420 ]
+750 silly gunzTarPerm extractEntry spec/cli/remote.login.spec.js
+751 silly gunzTarPerm modified mode [ 'spec/cli/remote.login.spec.js', 438, 420 ]
+752 silly gunzTarPerm extractEntry spec/cli/local.plugin.list.spec.js
+753 silly gunzTarPerm modified mode [ 'spec/cli/local.plugin.list.spec.js', 438, 420 ]
+754 silly gunzTarPerm extractEntry spec/cli/remote.logout.spec.js
+755 silly gunzTarPerm modified mode [ 'spec/cli/remote.logout.spec.js', 438, 420 ]
+756 silly gunzTarPerm extractEntry spec/cli/local.plugin.add.spec.js
+757 silly gunzTarPerm modified mode [ 'spec/cli/local.plugin.add.spec.js', 438, 420 ]
+758 silly gunzTarPerm extractEntry spec/cli/remote.run.spec.js
+759 silly gunzTarPerm modified mode [ 'spec/cli/remote.run.spec.js', 438, 420 ]
+760 silly gunzTarPerm extractEntry spec/cli/local.install.spec.js
+761 silly gunzTarPerm modified mode [ 'spec/cli/local.install.spec.js', 438, 420 ]
+762 silly gunzTarPerm extractEntry spec/cli/remote.spec.js
+763 silly gunzTarPerm modified mode [ 'spec/cli/remote.spec.js', 438, 420 ]
+764 silly gunzTarPerm extractEntry spec/cli/local.build.spec.js
+765 silly gunzTarPerm modified mode [ 'spec/cli/local.build.spec.js', 438, 420 ]
+766 silly gunzTarPerm extractEntry spec/cli/run.spec.js
+767 silly gunzTarPerm modified mode [ 'spec/cli/run.spec.js', 438, 420 ]
+768 silly gunzTarPerm extractEntry spec/cli/install.spec.js
+769 silly gunzTarPerm modified mode [ 'spec/cli/install.spec.js', 438, 420 ]
+770 silly gunzTarPerm extractEntry spec/cli/serve.spec.js
+771 silly gunzTarPerm modified mode [ 'spec/cli/serve.spec.js', 438, 420 ]
+772 silly gunzTarPerm extractEntry spec/cli/help.spec.js
+773 silly gunzTarPerm modified mode [ 'spec/cli/help.spec.js', 438, 420 ]
+774 silly gunzTarPerm extractEntry spec/cli/unknown.spec.js
+775 silly gunzTarPerm modified mode [ 'spec/cli/unknown.spec.js', 438, 420 ]
+776 silly gunzTarPerm extractEntry spec/cli/create.spec.js
+777 silly gunzTarPerm modified mode [ 'spec/cli/create.spec.js', 438, 420 ]
+778 silly gunzTarPerm extractEntry spec/cli/verbose.spec.js
+779 silly gunzTarPerm modified mode [ 'spec/cli/verbose.spec.js', 438, 420 ]
+780 silly gunzTarPerm extractEntry spec/cli/build.spec.js
+781 silly gunzTarPerm modified mode [ 'spec/cli/build.spec.js', 438, 420 ]
+782 silly gunzTarPerm extractEntry spec/cli/version.spec.js
+783 silly gunzTarPerm modified mode [ 'spec/cli/version.spec.js', 438, 420 ]
+784 silly gunzTarPerm extractEntry spec/cli/plugin.add.spec.js
+785 silly gunzTarPerm modified mode [ 'spec/cli/plugin.add.spec.js', 438, 420 ]
+786 silly gunzTarPerm extractEntry spec/common/config/global.spec.js
+787 silly gunzTarPerm modified mode [ 'spec/common/config/global.spec.js', 438, 420 ]
+788 silly gunzTarPerm extractEntry spec/common/config/local.spec.js
+789 silly gunzTarPerm modified mode [ 'spec/common/config/local.spec.js', 438, 420 ]
+790 silly gunzTarPerm extractEntry spec/phonegap/app.spec.js
+791 silly gunzTarPerm modified mode [ 'spec/phonegap/app.spec.js', 438, 420 ]
+792 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.remove.spec.js
+793 silly gunzTarPerm modified mode [ 'spec/phonegap/local.plugin.remove.spec.js', 438, 420 ]
+794 silly gunzTarPerm extractEntry spec/phonegap/local.run.spec.js
+795 silly gunzTarPerm modified mode [ 'spec/phonegap/local.run.spec.js', 438, 420 ]
+796 silly gunzTarPerm extractEntry spec/phonegap/mode.spec.js
+797 silly gunzTarPerm modified mode [ 'spec/phonegap/mode.spec.js', 438, 420 ]
+798 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.list.spec.js
+799 silly gunzTarPerm modified mode [ 'spec/phonegap/local.plugin.list.spec.js', 438, 420 ]
+800 silly gunzTarPerm extractEntry spec/phonegap/build.spec.js
+801 silly gunzTarPerm modified mode [ 'spec/phonegap/build.spec.js', 438, 420 ]
+802 silly gunzTarPerm extractEntry spec/phonegap/plugin.list.spec.js
+803 silly gunzTarPerm modified mode [ 'spec/phonegap/plugin.list.spec.js', 438, 420 ]
+804 silly gunzTarPerm extractEntry spec/phonegap/plugin.remove.spec.js
+805 silly gunzTarPerm modified mode [ 'spec/phonegap/plugin.remove.spec.js', 438, 420 ]
+806 silly gunzTarPerm extractEntry spec/phonegap/remote.build.spec.js
+807 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.build.spec.js', 438, 420 ]
+808 silly gunzTarPerm extractEntry spec/phonegap/remote.install.spec.js
+809 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.install.spec.js', 438, 420 ]
+810 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.add.spec.js
+811 silly gunzTarPerm modified mode [ 'spec/phonegap/local.plugin.add.spec.js', 438, 420 ]
+812 silly gunzTarPerm extractEntry spec/phonegap/remote.login.spec.js
+813 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.login.spec.js', 438, 420 ]
+814 silly gunzTarPerm extractEntry spec/phonegap/local.install.spec.js
+815 silly gunzTarPerm modified mode [ 'spec/phonegap/local.install.spec.js', 438, 420 ]
+816 silly gunzTarPerm extractEntry spec/phonegap/remote.logout.spec.js
+817 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.logout.spec.js', 438, 420 ]
+818 silly gunzTarPerm extractEntry spec/phonegap/local.build.spec.js
+819 silly gunzTarPerm modified mode [ 'spec/phonegap/local.build.spec.js', 438, 420 ]
+820 silly gunzTarPerm extractEntry spec/phonegap/remote.run.spec.js
+821 silly gunzTarPerm modified mode [ 'spec/phonegap/remote.run.spec.js', 438, 420 ]
+822 silly gunzTarPerm extractEntry spec/phonegap/install.spec.js
+823 silly gunzTarPerm modified mode [ 'spec/phonegap/install.spec.js', 438, 420 ]
+824 silly gunzTarPerm extractEntry spec/phonegap/run.spec.js
+825 silly gunzTarPerm modified mode [ 'spec/phonegap/run.spec.js', 438, 420 ]
+826 silly gunzTarPerm extractEntry spec/phonegap/create.spec.js
+827 silly gunzTarPerm modified mode [ 'spec/phonegap/create.spec.js', 438, 420 ]
+828 silly gunzTarPerm extractEntry spec/phonegap/serve.spec.js
+829 silly gunzTarPerm modified mode [ 'spec/phonegap/serve.spec.js', 438, 420 ]
+830 silly gunzTarPerm extractEntry spec/phonegap/platform.update.spec.js
+831 silly gunzTarPerm modified mode [ 'spec/phonegap/platform.update.spec.js', 438, 420 ]
+832 silly gunzTarPerm extractEntry spec/phonegap/version.spec.js
+833 silly gunzTarPerm modified mode [ 'spec/phonegap/version.spec.js', 438, 420 ]
+834 silly gunzTarPerm extractEntry spec/phonegap/plugin.add.spec.js
+835 silly gunzTarPerm modified mode [ 'spec/phonegap/plugin.add.spec.js', 438, 420 ]
+836 silly gunzTarPerm extractEntry spec/phonegap/util/platform.spec.js
+837 silly gunzTarPerm modified mode [ 'spec/phonegap/util/platform.spec.js', 438, 420 ]
+838 silly gunzTarPerm extractEntry spec/phonegap/util/project.spec.js
+839 silly gunzTarPerm modified mode [ 'spec/phonegap/util/project.spec.js', 438, 420 ]
+840 silly lockFile e9f264a8-oaming-npm-node-modules-phonegap tar://C:\Users\gianpaolo\AppData\Roaming\npm\node_modules\phonegap
+841 silly lockFile e9f264a8-oaming-npm-node-modules-phonegap tar://C:\Users\gianpaolo\AppData\Roaming\npm\node_modules\phonegap
+842 silly lockFile e0263b55-honegap-3-5-0-0-20-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+843 silly lockFile e0263b55-honegap-3-5-0-0-20-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.1\package.tgz
+844 info preinstall phonegap@3.5.0-0.20.1
+845 verbose readDependencies using package.json deps
+846 verbose readDependencies using package.json deps
+847 verbose cache add [ 'colors@0.6.0-1', null ]
+848 verbose cache add name=undefined spec="colors@0.6.0-1" args=["colors@0.6.0-1",null]
+849 verbose parsed url { protocol: null,
+849 verbose parsed url   slashes: null,
+849 verbose parsed url   auth: null,
+849 verbose parsed url   host: null,
+849 verbose parsed url   port: null,
+849 verbose parsed url   hostname: null,
+849 verbose parsed url   hash: null,
+849 verbose parsed url   search: null,
+849 verbose parsed url   query: null,
+849 verbose parsed url   pathname: 'colors@0.6.0-1',
+849 verbose parsed url   path: 'colors@0.6.0-1',
+849 verbose parsed url   href: 'colors@0.6.0-1' }
+850 verbose cache add name="colors" spec="0.6.0-1" args=["colors","0.6.0-1"]
+851 verbose parsed url { protocol: null,
+851 verbose parsed url   slashes: null,
+851 verbose parsed url   auth: null,
+851 verbose parsed url   host: null,
+851 verbose parsed url   port: null,
+851 verbose parsed url   hostname: null,
+851 verbose parsed url   hash: null,
+851 verbose parsed url   search: null,
+851 verbose parsed url   query: null,
+851 verbose parsed url   pathname: '0.6.0-1',
+851 verbose parsed url   path: '0.6.0-1',
+851 verbose parsed url   href: '0.6.0-1' }
+852 verbose addNamed [ 'colors', '0.6.0-1' ]
+853 verbose addNamed [ '0.6.0-1', '0.6.0-1' ]
+854 silly lockFile 02eba27f-colors-0-6-0-1 colors@0.6.0-1
+855 verbose lock colors@0.6.0-1 C:\Users\gianpaolo\AppData\Roaming\npm-cache\02eba27f-colors-0-6-0-1.lock
+856 verbose cache add [ 'cordova@3.5.0-0.2.4', null ]
+857 verbose cache add name=undefined spec="cordova@3.5.0-0.2.4" args=["cordova@3.5.0-0.2.4",null]
+858 verbose parsed url { protocol: null,
+858 verbose parsed url   slashes: null,
+858 verbose parsed url   auth: null,
+858 verbose parsed url   host: null,
+858 verbose parsed url   port: null,
+858 verbose parsed url   hostname: null,
+858 verbose parsed url   hash: null,
+858 verbose parsed url   search: null,
+858 verbose parsed url   query: null,
+858 verbose parsed url   pathname: 'cordova@3.5.0-0.2.4',
+858 verbose parsed url   path: 'cordova@3.5.0-0.2.4',
+858 verbose parsed url   href: 'cordova@3.5.0-0.2.4' }
+859 verbose cache add name="cordova" spec="3.5.0-0.2.4" args=["cordova","3.5.0-0.2.4"]
+860 verbose parsed url { protocol: null,
+860 verbose parsed url   slashes: null,
+860 verbose parsed url   auth: null,
+860 verbose parsed url   host: null,
+860 verbose parsed url   port: null,
+860 verbose parsed url   hostname: null,
+860 verbose parsed url   hash: null,
+860 verbose parsed url   search: null,
+860 verbose parsed url   query: null,
+860 verbose parsed url   pathname: '3.5.0-0.2.4',
+860 verbose parsed url   path: '3.5.0-0.2.4',
+860 verbose parsed url   href: '3.5.0-0.2.4' }
+861 verbose addNamed [ 'cordova', '3.5.0-0.2.4' ]
+862 verbose addNamed [ '3.5.0-0.2.4', '3.5.0-0.2.4' ]
+863 silly lockFile b06f4b23-cordova-3-5-0-0-2-4 cordova@3.5.0-0.2.4
+864 verbose lock cordova@3.5.0-0.2.4 C:\Users\gianpaolo\AppData\Roaming\npm-cache\b06f4b23-cordova-3-5-0-0-2-4.lock
+865 verbose cache add [ 'cordova-lib@lorinbeer/cordova-lib.git#pg.3.5.0', null ]
+866 verbose cache add name=undefined spec="cordova-lib@lorinbeer/cordova-lib.git#pg.3.5.0" args=["cordova-lib@lorinbeer/cordova-lib.git#pg.3.5.0",null]
+867 verbose parsed url { protocol: null,
+867 verbose parsed url   slashes: null,
+867 verbose parsed url   auth: null,
+867 verbose parsed url   host: null,
+867 verbose parsed url   port: null,
+867 verbose parsed url   hostname: null,
+867 verbose parsed url   hash: '#pg.3.5.0',
+867 verbose parsed url   search: null,
+867 verbose parsed url   query: null,
+867 verbose parsed url   pathname: 'cordova-lib@lorinbeer/cordova-lib.git',
+867 verbose parsed url   path: 'cordova-lib@lorinbeer/cordova-lib.git',
+867 verbose parsed url   href: 'cordova-lib@lorinbeer/cordova-lib.git#pg.3.5.0' }
+868 verbose cache add [ 'connect-phonegap@0.11.0', null ]
+869 verbose cache add name=undefined spec="connect-phonegap@0.11.0" args=["connect-phonegap@0.11.0",null]
+870 verbose parsed url { protocol: null,
+870 verbose parsed url   slashes: null,
+870 verbose parsed url   auth: null,
+870 verbose parsed url   host: null,
+870 verbose parsed url   port: null,
+870 verbose parsed url   hostname: null,
+870 verbose parsed url   hash: null,
+870 verbose parsed url   search: null,
+870 verbose parsed url   query: null,
+870 verbose parsed url   pathname: 'connect-phonegap@0.11.0',
+870 verbose parsed url   path: 'connect-phonegap@0.11.0',
+870 verbose parsed url   href: 'connect-phonegap@0.11.0' }
+871 verbose cache add name="connect-phonegap" spec="0.11.0" args=["connect-phonegap","0.11.0"]
+872 verbose parsed url { protocol: null,
+872 verbose parsed url   slashes: null,
+872 verbose parsed url   auth: null,
+872 verbose parsed url   host: null,
+872 verbose parsed url   port: null,
+872 verbose parsed url   hostname: null,
+872 verbose parsed url   hash: null,
+872 verbose parsed url   search: null,
+872 verbose parsed url   query: null,
+872 verbose parsed url   pathname: '0.11.0',
+872 verbose parsed url   path: '0.11.0',
+872 verbose parsed url   href: '0.11.0' }
+873 verbose addNamed [ 'connect-phonegap', '0.11.0' ]
+874 verbose addNamed [ '0.11.0', '0.11.0' ]
+875 silly lockFile 81991e6d-connect-phonegap-0-11-0 connect-phonegap@0.11.0
+876 verbose lock connect-phonegap@0.11.0 C:\Users\gianpaolo\AppData\Roaming\npm-cache\81991e6d-connect-phonegap-0-11-0.lock
+877 verbose cache add [ 'optimist@0.6.0', null ]
+878 verbose cache add name=undefined spec="optimist@0.6.0" args=["optimist@0.6.0",null]
+879 verbose parsed url { protocol: null,
+879 verbose parsed url   slashes: null,
+879 verbose parsed url   auth: null,
+879 verbose parsed url   host: null,
+879 verbose parsed url   port: null,
+879 verbose parsed url   hostname: null,
+879 verbose parsed url   hash: null,
+879 verbose parsed url   search: null,
+879 verbose parsed url   query: null,
+879 verbose parsed url   pathname: 'optimist@0.6.0',
+879 verbose parsed url   path: 'optimist@0.6.0',
+879 verbose parsed url   href: 'optimist@0.6.0' }
+880 verbose cache add name="optimist" spec="0.6.0" args=["optimist","0.6.0"]
+881 verbose parsed url { protocol: null,
+881 verbose parsed url   slashes: null,
+881 verbose parsed url   auth: null,
+881 verbose parsed url   host: null,
+881 verbose parsed url   port: null,
+881 verbose parsed url   hostname: null,
+881 verbose parsed url   hash: null,
+881 verbose parsed url   search: null,
+881 verbose parsed url   query: null,
+881 verbose parsed url   pathname: '0.6.0',
+881 verbose parsed url   path: '0.6.0',
+881 verbose parsed url   href: '0.6.0' }
+882 verbose addNamed [ 'optimist', '0.6.0' ]
+883 verbose addNamed [ '0.6.0', '0.6.0' ]
+884 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+885 verbose lock optimist@0.6.0 C:\Users\gianpaolo\AppData\Roaming\npm-cache\6403b4d6-optimist-0-6-0.lock
+886 verbose cache add [ 'phonegap-build@0.8.4', null ]
+887 verbose cache add name=undefined spec="phonegap-build@0.8.4" args=["phonegap-build@0.8.4",null]
+888 verbose parsed url { protocol: null,
+888 verbose parsed url   slashes: null,
+888 verbose parsed url   auth: null,
+888 verbose parsed url   host: null,
+888 verbose parsed url   port: null,
+888 verbose parsed url   hostname: null,
+888 verbose parsed url   hash: null,
+888 verbose parsed url   search: null,
+888 verbose parsed url   query: null,
+888 verbose parsed url   pathname: 'phonegap-build@0.8.4',
+888 verbose parsed url   path: 'phonegap-build@0.8.4',
+888 verbose parsed url   href: 'phonegap-build@0.8.4' }
+889 verbose cache add name="phonegap-build" spec="0.8.4" args=["phonegap-build","0.8.4"]
+890 verbose parsed url { protocol: null,
+890 verbose parsed url   slashes: null,
+890 verbose parsed url   auth: null,
+890 verbose parsed url   host: null,
+890 verbose parsed url   port: null,
+890 verbose parsed url   hostname: null,
+890 verbose parsed url   hash: null,
+890 verbose parsed url   search: null,
+890 verbose parsed url   query: null,
+890 verbose parsed url   pathname: '0.8.4',
+890 verbose parsed url   path: '0.8.4',
+890 verbose parsed url   href: '0.8.4' }
+891 verbose addNamed [ 'phonegap-build', '0.8.4' ]
+892 verbose addNamed [ '0.8.4', '0.8.4' ]
+893 silly lockFile cbe686af-phonegap-build-0-8-4 phonegap-build@0.8.4
+894 verbose lock phonegap-build@0.8.4 C:\Users\gianpaolo\AppData\Roaming\npm-cache\cbe686af-phonegap-build-0-8-4.lock
+895 verbose cache add [ 'pluralize@0.0.4', null ]
+896 verbose cache add name=undefined spec="pluralize@0.0.4" args=["pluralize@0.0.4",null]
+897 verbose parsed url { protocol: null,
+897 verbose parsed url   slashes: null,
+897 verbose parsed url   auth: null,
+897 verbose parsed url   host: null,
+897 verbose parsed url   port: null,
+897 verbose parsed url   hostname: null,
+897 verbose parsed url   hash: null,
+897 verbose parsed url   search: null,
+897 verbose parsed url   query: null,
+897 verbose parsed url   pathname: 'pluralize@0.0.4',
+897 verbose parsed url   path: 'pluralize@0.0.4',
+897 verbose parsed url   href: 'pluralize@0.0.4' }
+898 verbose cache add name="pluralize" spec="0.0.4" args=["pluralize","0.0.4"]
+899 verbose parsed url { protocol: null,
+899 verbose parsed url   slashes: null,
+899 verbose parsed url   auth: null,
+899 verbose parsed url   host: null,
+899 verbose parsed url   port: null,
+899 verbose parsed url   hostname: null,
+899 verbose parsed url   hash: null,
+899 verbose parsed url   search: null,
+899 verbose parsed url   query: null,
+899 verbose parsed url   pathname: '0.0.4',
+899 verbose parsed url   path: '0.0.4',
+899 verbose parsed url   href: '0.0.4' }
+900 verbose addNamed [ 'pluralize', '0.0.4' ]
+901 verbose addNamed [ '0.0.4', '0.0.4' ]
+902 silly lockFile 31820ee3-pluralize-0-0-4 pluralize@0.0.4
+903 verbose lock pluralize@0.0.4 C:\Users\gianpaolo\AppData\Roaming\npm-cache\31820ee3-pluralize-0-0-4.lock
+904 verbose cache add [ 'prompt@0.2.11', null ]
+905 verbose cache add name=undefined spec="prompt@0.2.11" args=["prompt@0.2.11",null]
+906 verbose parsed url { protocol: null,
+906 verbose parsed url   slashes: null,
+906 verbose parsed url   auth: null,
+906 verbose parsed url   host: null,
+906 verbose parsed url   port: null,
+906 verbose parsed url   hostname: null,
+906 verbose parsed url   hash: null,
+906 verbose parsed url   search: null,
+906 verbose parsed url   query: null,
+906 verbose parsed url   pathname: 'prompt@0.2.11',
+906 verbose parsed url   path: 'prompt@0.2.11',
+906 verbose parsed url   href: 'prompt@0.2.11' }
+907 verbose cache add name="prompt" spec="0.2.11" args=["prompt","0.2.11"]
+908 verbose parsed url { protocol: null,
+908 verbose parsed url   slashes: null,
+908 verbose parsed url   auth: null,
+908 verbose parsed url   host: null,
+908 verbose parsed url   port: null,
+908 verbose parsed url   hostname: null,
+908 verbose parsed url   hash: null,
+908 verbose parsed url   search: null,
+908 verbose parsed url   query: null,
+908 verbose parsed url   pathname: '0.2.11',
+908 verbose parsed url   path: '0.2.11',
+908 verbose parsed url   href: '0.2.11' }
+909 verbose addNamed [ 'prompt', '0.2.11' ]
+910 verbose addNamed [ '0.2.11', '0.2.11' ]
+911 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+912 verbose lock prompt@0.2.11 C:\Users\gianpaolo\AppData\Roaming\npm-cache\61856ab9-prompt-0-2-11.lock
+913 verbose cache add [ 'qrcode-terminal@0.9.4', null ]
+914 verbose cache add name=undefined spec="qrcode-terminal@0.9.4" args=["qrcode-terminal@0.9.4",null]
+915 verbose parsed url { protocol: null,
+915 verbose parsed url   slashes: null,
+915 verbose parsed url   auth: null,
+915 verbose parsed url   host: null,
+915 verbose parsed url   port: null,
+915 verbose parsed url   hostname: null,
+915 verbose parsed url   hash: null,
+915 verbose parsed url   search: null,
+915 verbose parsed url   query: null,
+915 verbose parsed url   pathname: 'qrcode-terminal@0.9.4',
+915 verbose parsed url   path: 'qrcode-terminal@0.9.4',
+915 verbose parsed url   href: 'qrcode-terminal@0.9.4' }
+916 verbose cache add name="qrcode-terminal" spec="0.9.4" args=["qrcode-terminal","0.9.4"]
+917 verbose parsed url { protocol: null,
+917 verbose parsed url   slashes: null,
+917 verbose parsed url   auth: null,
+917 verbose parsed url   host: null,
+917 verbose parsed url   port: null,
+917 verbose parsed url   hostname: null,
+917 verbose parsed url   hash: null,
+917 verbose parsed url   search: null,
+917 verbose parsed url   query: null,
+917 verbose parsed url   pathname: '0.9.4',
+917 verbose parsed url   path: '0.9.4',
+917 verbose parsed url   href: '0.9.4' }
+918 verbose addNamed [ 'qrcode-terminal', '0.9.4' ]
+919 verbose addNamed [ '0.9.4', '0.9.4' ]
+920 silly lockFile b8302fc0-qrcode-terminal-0-9-4 qrcode-terminal@0.9.4
+921 verbose lock qrcode-terminal@0.9.4 C:\Users\gianpaolo\AppData\Roaming\npm-cache\b8302fc0-qrcode-terminal-0-9-4.lock
+922 verbose cache add [ 'semver@1.1.0', null ]
+923 verbose cache add name=undefined spec="semver@1.1.0" args=["semver@1.1.0",null]
+924 verbose parsed url { protocol: null,
+924 verbose parsed url   slashes: null,
+924 verbose parsed url   auth: null,
+924 verbose parsed url   host: null,
+924 verbose parsed url   port: null,
+924 verbose parsed url   hostname: null,
+924 verbose parsed url   hash: null,
+924 verbose parsed url   search: null,
+924 verbose parsed url   query: null,
+924 verbose parsed url   pathname: 'semver@1.1.0',
+924 verbose parsed url   path: 'semver@1.1.0',
+924 verbose parsed url   href: 'semver@1.1.0' }
+925 verbose cache add name="semver" spec="1.1.0" args=["semver","1.1.0"]
+926 verbose parsed url { protocol: null,
+926 verbose parsed url   slashes: null,
+926 verbose parsed url   auth: null,
+926 verbose parsed url   host: null,
+926 verbose parsed url   port: null,
+926 verbose parsed url   hostname: null,
+926 verbose parsed url   hash: null,
+926 verbose parsed url   search: null,
+926 verbose parsed url   query: null,
+926 verbose parsed url   pathname: '1.1.0',
+926 verbose parsed url   path: '1.1.0',
+926 verbose parsed url   href: '1.1.0' }
+927 verbose addNamed [ 'semver', '1.1.0' ]
+928 verbose addNamed [ '1.1.0', '1.1.0' ]
+929 silly lockFile 740aca99-semver-1-1-0 semver@1.1.0
+930 verbose lock semver@1.1.0 C:\Users\gianpaolo\AppData\Roaming\npm-cache\740aca99-semver-1-1-0.lock
+931 verbose cache add [ 'shelljs@0.1.4', null ]
+932 verbose cache add name=undefined spec="shelljs@0.1.4" args=["shelljs@0.1.4",null]
+933 verbose parsed url { protocol: null,
+933 verbose parsed url   slashes: null,
+933 verbose parsed url   auth: null,
+933 verbose parsed url   host: null,
+933 verbose parsed url   port: null,
+933 verbose parsed url   hostname: null,
+933 verbose parsed url   hash: null,
+933 verbose parsed url   search: null,
+933 verbose parsed url   query: null,
+933 verbose parsed url   pathname: 'shelljs@0.1.4',
+933 verbose parsed url   path: 'shelljs@0.1.4',
+933 verbose parsed url   href: 'shelljs@0.1.4' }
+934 verbose cache add name="shelljs" spec="0.1.4" args=["shelljs","0.1.4"]
+935 verbose parsed url { protocol: null,
+935 verbose parsed url   slashes: null,
+935 verbose parsed url   auth: null,
+935 verbose parsed url   host: null,
+935 verbose parsed url   port: null,
+935 verbose parsed url   hostname: null,
+935 verbose parsed url   hash: null,
+935 verbose parsed url   search: null,
+935 verbose parsed url   query: null,
+935 verbose parsed url   pathname: '0.1.4',
+935 verbose parsed url   path: '0.1.4',
+935 verbose parsed url   href: '0.1.4' }
+936 verbose addNamed [ 'shelljs', '0.1.4' ]
+937 verbose addNamed [ '0.1.4', '0.1.4' ]
+938 silly lockFile 77595a32-shelljs-0-1-4 shelljs@0.1.4
+939 verbose lock shelljs@0.1.4 C:\Users\gianpaolo\AppData\Roaming\npm-cache\77595a32-shelljs-0-1-4.lock
+940 verbose cache add name="cordova-lib" spec="lorinbeer/cordova-lib.git#pg.3.5.0" args=["cordova-lib","lorinbeer/cordova-lib.git#pg.3.5.0"]
+941 verbose parsed url { protocol: null,
+941 verbose parsed url   slashes: null,
+941 verbose parsed url   auth: null,
+941 verbose parsed url   host: null,
+941 verbose parsed url   port: null,
+941 verbose parsed url   hostname: null,
+941 verbose parsed url   hash: '#pg.3.5.0',
+941 verbose parsed url   search: null,
+941 verbose parsed url   query: null,
+941 verbose parsed url   pathname: 'lorinbeer/cordova-lib.git',
+941 verbose parsed url   path: 'lorinbeer/cordova-lib.git',
+941 verbose parsed url   href: 'lorinbeer/cordova-lib.git#pg.3.5.0' }
+942 verbose addNamed [ 'cordova-lib', 'lorinbeer/cordova-lib.git#pg.3.5.0' ]
+943 verbose addNamed [ null, null ]
+944 silly lockFile d215b5d6-rinbeer-cordova-lib-git-pg-3-5-0 cordova-lib@lorinbeer/cordova-lib.git#pg.3.5.0
+945 verbose lock cordova-lib@lorinbeer/cordova-lib.git#pg.3.5.0 C:\Users\gianpaolo\AppData\Roaming\npm-cache\d215b5d6-rinbeer-cordova-lib-git-pg-3-5-0.lock
+946 verbose url raw prompt/0.2.11
+947 verbose url resolving [ 'https://registry.npmjs.org/', './prompt/0.2.11' ]
+948 verbose url resolved https://registry.npmjs.org/prompt/0.2.11
+949 info trying registry request attempt 1 at 00:27:11
+950 http GET https://registry.npmjs.org/prompt/0.2.11
+951 verbose url raw pluralize/0.0.4
+952 verbose url resolving [ 'https://registry.npmjs.org/', './pluralize/0.0.4' ]
+953 verbose url resolved https://registry.npmjs.org/pluralize/0.0.4
+954 info trying registry request attempt 1 at 00:27:11
+955 http GET https://registry.npmjs.org/pluralize/0.0.4
+956 verbose url raw colors/0.6.0-1
+957 verbose url resolving [ 'https://registry.npmjs.org/', './colors/0.6.0-1' ]
+958 verbose url resolved https://registry.npmjs.org/colors/0.6.0-1
+959 info trying registry request attempt 1 at 00:27:11
+960 http GET https://registry.npmjs.org/colors/0.6.0-1
+961 verbose url raw connect-phonegap/0.11.0
+962 verbose url resolving [ 'https://registry.npmjs.org/', './connect-phonegap/0.11.0' ]
+963 verbose url resolved https://registry.npmjs.org/connect-phonegap/0.11.0
+964 info trying registry request attempt 1 at 00:27:11
+965 http GET https://registry.npmjs.org/connect-phonegap/0.11.0
+966 verbose url raw phonegap-build/0.8.4
+967 verbose url resolving [ 'https://registry.npmjs.org/', './phonegap-build/0.8.4' ]
+968 verbose url resolved https://registry.npmjs.org/phonegap-build/0.8.4
+969 info trying registry request attempt 1 at 00:27:11
+970 http GET https://registry.npmjs.org/phonegap-build/0.8.4
+971 verbose url raw cordova/3.5.0-0.2.4
+972 verbose url resolving [ 'https://registry.npmjs.org/', './cordova/3.5.0-0.2.4' ]
+973 verbose url resolved https://registry.npmjs.org/cordova/3.5.0-0.2.4
+974 info trying registry request attempt 1 at 00:27:11
+975 http GET https://registry.npmjs.org/cordova/3.5.0-0.2.4
+976 info addNameTag [ 'cordova-lib', 'lorinbeer/cordova-lib.git#pg.3.5.0' ]
+977 verbose url raw semver/1.1.0
+978 verbose url resolving [ 'https://registry.npmjs.org/', './semver/1.1.0' ]
+979 verbose url resolved https://registry.npmjs.org/semver/1.1.0
+980 info trying registry request attempt 1 at 00:27:11
+981 http GET https://registry.npmjs.org/semver/1.1.0
+982 verbose url raw qrcode-terminal/0.9.4
+983 verbose url resolving [ 'https://registry.npmjs.org/', './qrcode-terminal/0.9.4' ]
+984 verbose url resolved https://registry.npmjs.org/qrcode-terminal/0.9.4
+985 info trying registry request attempt 1 at 00:27:11
+986 http GET https://registry.npmjs.org/qrcode-terminal/0.9.4
+987 verbose url raw cordova-lib
+988 verbose url resolving [ 'https://registry.npmjs.org/', './cordova-lib' ]
+989 verbose url resolved https://registry.npmjs.org/cordova-lib
+990 info trying registry request attempt 1 at 00:27:11
+991 http GET https://registry.npmjs.org/cordova-lib
+992 verbose url raw optimist/0.6.0
+993 verbose url resolving [ 'https://registry.npmjs.org/', './optimist/0.6.0' ]
+994 verbose url resolved https://registry.npmjs.org/optimist/0.6.0
+995 info trying registry request attempt 1 at 00:27:11
+996 verbose etag "EZYZRZ03EGW27GH6KTQGUF8UI"
+997 http GET https://registry.npmjs.org/optimist/0.6.0
+998 verbose url raw shelljs/0.1.4
+999 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs/0.1.4' ]
+1000 verbose url resolved https://registry.npmjs.org/shelljs/0.1.4
+1001 info trying registry request attempt 1 at 00:27:11
+1002 verbose etag "35SYE8UT7G2TRJVSUGC7DVGEH"
+1003 http GET https://registry.npmjs.org/shelljs/0.1.4
+1004 http 200 https://registry.npmjs.org/colors/0.6.0-1
+1005 silly registry.get cb [ 200,
+1005 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1005 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1005 silly registry.get     etag: '"69D4S5JHBU8PEN718MVV6FX5"',
+1005 silly registry.get     'content-type': 'application/json',
+1005 silly registry.get     'cache-control': 'max-age=1',
+1005 silly registry.get     'content-length': '682',
+1005 silly registry.get     'accept-ranges': 'bytes',
+1005 silly registry.get     via: '1.1 varnish',
+1005 silly registry.get     age: '538',
+1005 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+1005 silly registry.get     'x-cache': 'MISS',
+1005 silly registry.get     'x-cache-hits': '0',
+1005 silly registry.get     'x-timer': 'S1402266432.143122,VS0,VE169',
+1005 silly registry.get     vary: 'Accept',
+1005 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1005 silly registry.get     connection: 'Keep-Alive' } ]
+1006 http 200 https://registry.npmjs.org/prompt/0.2.11
+1007 silly registry.get cb [ 200,
+1007 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1007 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1007 silly registry.get     etag: '"2RTS2LDE4ABQFSS749LAOC1OF"',
+1007 silly registry.get     'content-type': 'application/json',
+1007 silly registry.get     'cache-control': 'max-age=1',
+1007 silly registry.get     'content-length': '1105',
+1007 silly registry.get     'accept-ranges': 'bytes',
+1007 silly registry.get     via: '1.1 varnish',
+1007 silly registry.get     age: '0',
+1007 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+1007 silly registry.get     'x-cache': 'MISS',
+1007 silly registry.get     'x-cache-hits': '0',
+1007 silly registry.get     'x-timer': 'S1402266432.118616,VS0,VE196',
+1007 silly registry.get     vary: 'Accept',
+1007 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1007 silly registry.get     connection: 'Keep-Alive' } ]
+1008 silly lockFile fc1f01f9-js-org-colors-colors-0-6-0-1-tgz https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz
+1009 verbose lock https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\fc1f01f9-js-org-colors-colors-0-6-0-1-tgz.lock
+1010 silly lockFile b4f5973d-mjs-org-prompt-prompt-0-2-11-tgz https://registry.npmjs.org/prompt/-/prompt-0.2.11.tgz
+1011 verbose lock https://registry.npmjs.org/prompt/-/prompt-0.2.11.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\b4f5973d-mjs-org-prompt-prompt-0-2-11-tgz.lock
+1012 verbose addRemoteTarball [ 'https://registry.npmjs.org/prompt/-/prompt-0.2.11.tgz',
+1012 verbose addRemoteTarball   '26d455af4b7fac15291dfcdddf2400328c1fa446' ]
+1013 verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz',
+1013 verbose addRemoteTarball   '6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a' ]
+1014 http 200 https://registry.npmjs.org/phonegap-build/0.8.4
+1015 silly registry.get cb [ 200,
+1015 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1015 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1015 silly registry.get     etag: '"2I9LX7NX4SF03B41UCMU4D6UH"',
+1015 silly registry.get     'content-type': 'application/json',
+1015 silly registry.get     'cache-control': 'max-age=1',
+1015 silly registry.get     'content-length': '7575',
+1015 silly registry.get     'accept-ranges': 'bytes',
+1015 silly registry.get     via: '1.1 varnish',
+1015 silly registry.get     age: '5394',
+1015 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+1015 silly registry.get     'x-cache': 'MISS',
+1015 silly registry.get     'x-cache-hits': '0',
+1015 silly registry.get     'x-timer': 'S1402266432.161336,VS0,VE172',
+1015 silly registry.get     vary: 'Accept',
+1015 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1015 silly registry.get     connection: 'Keep-Alive' } ]
+1016 info retry fetch attempt 1 at 00:27:12
+1017 verbose fetch to= C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\tmp.tgz
+1018 info retry fetch attempt 1 at 00:27:12
+1019 verbose fetch to= C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432574-0.7301598889753222\tmp.tgz
+1020 http GET https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz
+1021 http GET https://registry.npmjs.org/prompt/-/prompt-0.2.11.tgz
+1022 silly lockFile ff6cb691-p-build-phonegap-build-0-8-4-tgz https://registry.npmjs.org/phonegap-build/-/phonegap-build-0.8.4.tgz
+1023 verbose lock https://registry.npmjs.org/phonegap-build/-/phonegap-build-0.8.4.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\ff6cb691-p-build-phonegap-build-0-8-4-tgz.lock
+1024 verbose addRemoteTarball [ 'https://registry.npmjs.org/phonegap-build/-/phonegap-build-0.8.4.tgz',
+1024 verbose addRemoteTarball   'd4f735dcf310d4049c91f8043fa659971bc14784' ]
+1025 info retry fetch attempt 1 at 00:27:12
+1026 verbose fetch to= C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432638-0.5652939574792981\tmp.tgz
+1027 http GET https://registry.npmjs.org/phonegap-build/-/phonegap-build-0.8.4.tgz
+1028 http 200 https://registry.npmjs.org/pluralize/0.0.4
+1029 silly registry.get cb [ 200,
+1029 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1029 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1029 silly registry.get     etag: '"121QT7I4P7UE21SBJD2JVT2ZS"',
+1029 silly registry.get     'content-type': 'application/json',
+1029 silly registry.get     'cache-control': 'max-age=1',
+1029 silly registry.get     'content-length': '823',
+1029 silly registry.get     'accept-ranges': 'bytes',
+1029 silly registry.get     via: '1.1 varnish',
+1029 silly registry.get     age: '1781',
+1029 silly registry.get     'x-served-by': 'cache-fra1221-FRA',
+1029 silly registry.get     'x-cache': 'MISS',
+1029 silly registry.get     'x-cache-hits': '0',
+1029 silly registry.get     'x-timer': 'S1402266431.803422,VS0,VE692',
+1029 silly registry.get     vary: 'Accept',
+1029 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1029 silly registry.get     connection: 'Keep-Alive' } ]
+1030 silly lockFile d47f7a08-rg-pluralize-pluralize-0-0-4-tgz https://registry.npmjs.org/pluralize/-/pluralize-0.0.4.tgz
+1031 verbose lock https://registry.npmjs.org/pluralize/-/pluralize-0.0.4.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\d47f7a08-rg-pluralize-pluralize-0-0-4-tgz.lock
+1032 verbose addRemoteTarball [ 'https://registry.npmjs.org/pluralize/-/pluralize-0.0.4.tgz',
+1032 verbose addRemoteTarball   '1dc3f5dd4ec729a7e92e5387ec8de120c7b5146d' ]
+1033 info retry fetch attempt 1 at 00:27:12
+1034 verbose fetch to= C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432791-0.012072472833096981\tmp.tgz
+1035 http GET https://registry.npmjs.org/pluralize/-/pluralize-0.0.4.tgz
+1036 http 200 https://registry.npmjs.org/qrcode-terminal/0.9.4
+1037 silly registry.get cb [ 200,
+1037 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1037 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1037 silly registry.get     etag: '"7XCW95F2XVNI1C4TBKCCVQ6SE"',
+1037 silly registry.get     'content-type': 'application/json',
+1037 silly registry.get     'cache-control': 'max-age=1',
+1037 silly registry.get     'content-length': '2941',
+1037 silly registry.get     'accept-ranges': 'bytes',
+1037 silly registry.get     via: '1.1 varnish',
+1037 silly registry.get     age: '6701',
+1037 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+1037 silly registry.get     'x-cache': 'MISS',
+1037 silly registry.get     'x-cache-hits': '0',
+1037 silly registry.get     'x-timer': 'S1402266432.425858,VS0,VE104',
+1037 silly registry.get     vary: 'Accept',
+1037 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1037 silly registry.get     connection: 'Keep-Alive' } ]
+1038 silly lockFile 0371b17e-rminal-qrcode-terminal-0-9-4-tgz https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.9.4.tgz
+1039 verbose lock https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.9.4.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\0371b17e-rminal-qrcode-terminal-0-9-4-tgz.lock
+1040 verbose addRemoteTarball [ 'https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.9.4.tgz',
+1040 verbose addRemoteTarball   '7cde46b544ca667971c69c6acebf5074bd5045bb' ]
+1041 info retry fetch attempt 1 at 00:27:12
+1042 verbose fetch to= C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432812-0.7314171909820288\tmp.tgz
+1043 http GET https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.9.4.tgz
+1044 http 200 https://registry.npmjs.org/semver/1.1.0
+1045 silly registry.get cb [ 200,
+1045 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1045 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1045 silly registry.get     etag: '"5T6MUUO9XMCIT4W783K8VECVS"',
+1045 silly registry.get     'content-type': 'application/json',
+1045 silly registry.get     via: '1.1 varnish',
+1045 silly registry.get     'cache-control': 'max-age=1',
+1045 silly registry.get     'content-length': '664',
+1045 silly registry.get     'accept-ranges': 'bytes',
+1045 silly registry.get     age: '6701',
+1045 silly registry.get     'x-served-by': 'cache-sv94-SJC3, cache-fra1233-FRA',
+1045 silly registry.get     'x-cache': 'MISS, MISS',
+1045 silly registry.get     'x-cache-hits': '0, 0',
+1045 silly registry.get     'x-timer': 'S1402266432.371248,VS0,VE174',
+1045 silly registry.get     vary: 'Accept',
+1045 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1045 silly registry.get     connection: 'Keep-Alive' } ]
+1046 silly lockFile 4fbf0753-pmjs-org-semver-semver-1-1-0-tgz https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+1047 verbose lock https://registry.npmjs.org/semver/-/semver-1.1.0.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\4fbf0753-pmjs-org-semver-semver-1-1-0-tgz.lock
+1048 verbose addRemoteTarball [ 'https://registry.npmjs.org/semver/-/semver-1.1.0.tgz',
+1048 verbose addRemoteTarball   'da9b9c837e31550a7c928622bc2381de7dd7a53e' ]
+1049 info retry fetch attempt 1 at 00:27:12
+1050 verbose fetch to= C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\tmp.tgz
+1051 http GET https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+1052 http 200 https://registry.npmjs.org/cordova/3.5.0-0.2.4
+1053 silly registry.get cb [ 200,
+1053 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1053 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1053 silly registry.get     etag: '"6ECM847HJXJV37RHA977I45BZ"',
+1053 silly registry.get     'content-type': 'application/json',
+1053 silly registry.get     'cache-control': 'max-age=1',
+1053 silly registry.get     'content-length': '2811',
+1053 silly registry.get     'accept-ranges': 'bytes',
+1053 silly registry.get     via: '1.1 varnish',
+1053 silly registry.get     age: '1781',
+1053 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+1053 silly registry.get     'x-cache': 'MISS',
+1053 silly registry.get     'x-cache-hits': '0',
+1053 silly registry.get     'x-timer': 'S1402266432.364565,VS0,VE184',
+1053 silly registry.get     vary: 'Accept',
+1053 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1053 silly registry.get     connection: 'Keep-Alive' } ]
+1054 silly lockFile 8dd42be6--cordova-cordova-3-5-0-0-2-4-tgz https://registry.npmjs.org/cordova/-/cordova-3.5.0-0.2.4.tgz
+1055 verbose lock https://registry.npmjs.org/cordova/-/cordova-3.5.0-0.2.4.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\8dd42be6--cordova-cordova-3-5-0-0-2-4-tgz.lock
+1056 verbose addRemoteTarball [ 'https://registry.npmjs.org/cordova/-/cordova-3.5.0-0.2.4.tgz',
+1056 verbose addRemoteTarball   '42ecb5bf50a456a2d95f0e95b3c542393f6af538' ]
+1057 info retry fetch attempt 1 at 00:27:12
+1058 verbose fetch to= C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432849-0.34054973372258246\tmp.tgz
+1059 http GET https://registry.npmjs.org/cordova/-/cordova-3.5.0-0.2.4.tgz
+1060 http 200 https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz
+1061 verbose tar unpack C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\tmp.tgz
+1062 silly lockFile 1f0b8285-2571-0-23358733160421252-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\package
+1063 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\1f0b8285-2571-0-23358733160421252-package.lock
+1064 silly lockFile 8395cd42-2571-0-23358733160421252-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\tmp.tgz
+1065 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\tmp.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\8395cd42-2571-0-23358733160421252-tmp-tgz.lock
+1066 silly gunzTarPerm modes [ '755', '644' ]
+1067 silly gunzTarPerm extractEntry colors.js
+1068 silly gunzTarPerm extractEntry example.html
+1069 silly gunzTarPerm extractEntry example.js
+1070 http 200 https://registry.npmjs.org/prompt/-/prompt-0.2.11.tgz
+1071 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+1072 silly gunzTarPerm extractEntry package.json
+1073 silly gunzTarPerm extractEntry ReadMe.md
+1074 silly gunzTarPerm extractEntry test.js
+1075 silly lockFile 1f0b8285-2571-0-23358733160421252-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\package
+1076 silly lockFile 1f0b8285-2571-0-23358733160421252-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\package
+1077 silly lockFile 8395cd42-2571-0-23358733160421252-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\tmp.tgz
+1078 silly lockFile 8395cd42-2571-0-23358733160421252-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\tmp.tgz
+1079 verbose tar pack [ 'C:\\Users\\gianpaolo\\AppData\\Roaming\\npm-cache\\colors\\0.6.0-1\\package.tgz',
+1079 verbose tar pack   'C:\\Users\\GIANPA~1\\AppData\\Local\\Temp\\npm-5292-dEq0PFOY\\1402266432571-0.23358733160421252\\package' ]
+1080 verbose tarball C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz
+1081 verbose folder C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\package
+1082 silly lockFile 1f0b8285-2571-0-23358733160421252-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\package
+1083 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\1f0b8285-2571-0-23358733160421252-package.lock
+1084 silly lockFile 774fef49-cache-colors-0-6-0-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz
+1085 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\774fef49-cache-colors-0-6-0-1-package-tgz.lock
+1086 silly lockFile 1f0b8285-2571-0-23358733160421252-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\package
+1087 silly lockFile 1f0b8285-2571-0-23358733160421252-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432571-0.23358733160421252\package
+1088 silly lockFile 774fef49-cache-colors-0-6-0-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz
+1089 silly lockFile 774fef49-cache-colors-0-6-0-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz
+1090 silly lockFile 1ec7bf6e-npm-cache-colors-0-6-0-1-package C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package
+1091 verbose lock C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\1ec7bf6e-npm-cache-colors-0-6-0-1-package.lock
+1092 silly lockFile 1ec7bf6e-npm-cache-colors-0-6-0-1-package C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package
+1093 silly lockFile 1ec7bf6e-npm-cache-colors-0-6-0-1-package C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package
+1094 verbose tar unpack C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz
+1095 silly lockFile 3f7acc29-npm-cache-colors-0-6-0-1-package tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package
+1096 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\3f7acc29-npm-cache-colors-0-6-0-1-package.lock
+1097 silly lockFile 774fef49-cache-colors-0-6-0-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz
+1098 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\774fef49-cache-colors-0-6-0-1-package-tgz.lock
+1099 silly gunzTarPerm modes [ '755', '644' ]
+1100 silly gunzTarPerm extractEntry package.json
+1101 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1102 silly gunzTarPerm extractEntry colors.js
+1103 silly gunzTarPerm modified mode [ 'colors.js', 438, 420 ]
+1104 silly gunzTarPerm extractEntry example.js
+1105 silly gunzTarPerm modified mode [ 'example.js', 438, 420 ]
+1106 silly gunzTarPerm extractEntry test.js
+1107 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+1108 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+1109 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 438, 420 ]
+1110 silly gunzTarPerm extractEntry ReadMe.md
+1111 silly gunzTarPerm modified mode [ 'ReadMe.md', 438, 420 ]
+1112 silly gunzTarPerm extractEntry example.html
+1113 silly gunzTarPerm modified mode [ 'example.html', 438, 420 ]
+1114 silly lockFile 3f7acc29-npm-cache-colors-0-6-0-1-package tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package
+1115 silly lockFile 3f7acc29-npm-cache-colors-0-6-0-1-package tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package
+1116 silly lockFile 774fef49-cache-colors-0-6-0-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz
+1117 silly lockFile 774fef49-cache-colors-0-6-0-1-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz
+1118 verbose chmod C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz 644
+1119 silly chown skipping for windows C:\Users\gianpaolo\AppData\Roaming\npm-cache\colors\0.6.0-1\package.tgz
+1120 silly lockFile fc1f01f9-js-org-colors-colors-0-6-0-1-tgz https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz
+1121 silly lockFile fc1f01f9-js-org-colors-colors-0-6-0-1-tgz https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz
+1122 silly lockFile 02eba27f-colors-0-6-0-1 colors@0.6.0-1
+1123 silly lockFile 02eba27f-colors-0-6-0-1 colors@0.6.0-1
+1124 http 304 https://registry.npmjs.org/shelljs/0.1.4
+1125 silly registry.get cb [ 304,
+1125 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1125 silly registry.get     server: 'Apache',
+1125 silly registry.get     via: '1.1 varnish',
+1125 silly registry.get     'last-modified': 'Sun, 08 Jun 2014 22:27:12 GMT',
+1125 silly registry.get     'cache-control': 'max-age=1',
+1125 silly registry.get     etag: '"35SYE8UT7G2TRJVSUGC7DVGEH"',
+1125 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+1125 silly registry.get     'x-cache': 'MISS',
+1125 silly registry.get     'x-cache-hits': '0',
+1125 silly registry.get     'x-timer': 'S1402266432.637216,VS0,VE126',
+1125 silly registry.get     vary: 'Accept',
+1125 silly registry.get     'content-length': '0',
+1125 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1125 silly registry.get     connection: 'Keep-Alive' } ]
+1126 verbose etag shelljs/0.1.4 from cache
+1127 http 200 https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+1128 verbose tar unpack C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\tmp.tgz
+1129 silly lockFile a35dc3de-432836-0-367092558182776-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\package
+1130 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\a35dc3de-432836-0-367092558182776-package.lock
+1131 silly lockFile 76981521-432836-0-367092558182776-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\tmp.tgz
+1132 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\tmp.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\76981521-432836-0-367092558182776-tmp-tgz.lock
+1133 silly gunzTarPerm modes [ '755', '644' ]
+1134 silly gunzTarPerm extractEntry package.json
+1135 http 304 https://registry.npmjs.org/optimist/0.6.0
+1136 silly registry.get cb [ 304,
+1136 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1136 silly registry.get     server: 'Apache',
+1136 silly registry.get     via: '1.1 varnish',
+1136 silly registry.get     'last-modified': 'Sun, 08 Jun 2014 22:27:12 GMT',
+1136 silly registry.get     'cache-control': 'max-age=1',
+1136 silly registry.get     etag: '"EZYZRZ03EGW27GH6KTQGUF8UI"',
+1136 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+1136 silly registry.get     'x-cache': 'HIT',
+1136 silly registry.get     'x-cache-hits': '1',
+1136 silly registry.get     'x-timer': 'S1402266432.612808,VS0,VE182',
+1136 silly registry.get     vary: 'Accept',
+1136 silly registry.get     'content-length': '0',
+1136 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1136 silly registry.get     connection: 'Keep-Alive' } ]
+1137 verbose etag optimist/0.6.0 from cache
+1138 silly gunzTarPerm extractEntry README.md
+1139 silly gunzTarPerm extractEntry LICENSE
+1140 silly gunzTarPerm extractEntry semver.js
+1141 silly gunzTarPerm extractEntry test.js
+1142 silly gunzTarPerm extractEntry bin/semver
+1143 silly lockFile 77595a32-shelljs-0-1-4 shelljs@0.1.4
+1144 silly lockFile 77595a32-shelljs-0-1-4 shelljs@0.1.4
+1145 verbose tar unpack C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432574-0.7301598889753222\tmp.tgz
+1146 silly lockFile 89b9979c-32574-0-7301598889753222-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432574-0.7301598889753222\package
+1147 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432574-0.7301598889753222\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\89b9979c-32574-0-7301598889753222-package.lock
+1148 silly lockFile 533dad39-32574-0-7301598889753222-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432574-0.7301598889753222\tmp.tgz
+1149 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432574-0.7301598889753222\tmp.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\533dad39-32574-0-7301598889753222-tmp-tgz.lock
+1150 silly gunzTarPerm modes [ '755', '644' ]
+1151 silly gunzTarPerm extractEntry package.json
+1152 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+1153 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+1154 http 200 https://registry.npmjs.org/cordova-lib
+1155 silly registry.get cb [ 200,
+1155 silly registry.get   { date: 'Sun, 08 Jun 2014 22:27:12 GMT',
+1155 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1155 silly registry.get     etag: '"9CY0A2MTOMVNA9HLPV2YTSI45"',
+1155 silly registry.get     'content-type': 'application/json',
+1155 silly registry.get     'cache-control': 'max-age=1',
+1155 silly registry.get     'content-length': '9211',
+1155 silly registry.get     'accept-ranges': 'bytes',
+1155 silly registry.get     via: '1.1 varnish',
+1155 silly registry.get     age: '473',
+1155 silly registry.get     'x-served-by': 'cache-fra1221-FRA',
+1155 silly registry.get     'x-cache': 'MISS',
+1155 silly registry.get     'x-cache-hits': '0',
+1155 silly registry.get     'x-timer': 'S1402266432.582249,VS0,VE177',
+1155 silly registry.get     vary: 'Accept',
+1155 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1155 silly registry.get     connection: 'Keep-Alive' } ]
+1156 silly gunzTarPerm extractEntry .npmignore
+1157 silly gunzTarPerm extractEntry README.md
+1158 silly gunzTarPerm extractEntry LICENSE
+1159 silly gunzTarPerm extractEntry .jshintrc
+1160 silly lockFile a35dc3de-432836-0-367092558182776-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\package
+1161 silly lockFile a35dc3de-432836-0-367092558182776-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\package
+1162 http 200 https://registry.npmjs.org/cordova/-/cordova-3.5.0-0.2.4.tgz
+1163 silly lockFile 76981521-432836-0-367092558182776-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\tmp.tgz
+1164 silly lockFile 76981521-432836-0-367092558182776-tmp-tgz tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\tmp.tgz
+1165 info maybeGithub Attempting lorinbeer/cordova-lib.git#pg.3.5.0 from git://github.com/lorinbeer/cordova-lib.git#pg.3.5.0
+1166 silly lockFile 93d4eb1c-ub-com-lorinbeer-cordova-lib-git git://github.com/lorinbeer/cordova-lib.git
+1167 verbose lock git://github.com/lorinbeer/cordova-lib.git C:\Users\gianpaolo\AppData\Roaming\npm-cache\93d4eb1c-ub-com-lorinbeer-cordova-lib-git.lock
+1168 verbose tar pack [ 'C:\\Users\\gianpaolo\\AppData\\Roaming\\npm-cache\\semver\\1.1.0\\package.tgz',
+1168 verbose tar pack   'C:\\Users\\GIANPA~1\\AppData\\Local\\Temp\\npm-5292-dEq0PFOY\\1402266432836-0.367092558182776\\package' ]
+1169 verbose tarball C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz
+1170 verbose folder C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\package
+1171 silly lockFile a35dc3de-432836-0-367092558182776-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\package
+1172 verbose lock tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\a35dc3de-432836-0-367092558182776-package.lock
+1173 silly lockFile cc1c7da4-m-cache-semver-1-1-0-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz
+1174 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\cc1c7da4-m-cache-semver-1-1-0-package-tgz.lock
+1175 verbose addRemoteGit [ 'git://github.com/lorinbeer/cordova-lib.git', 'pg.3.5.0' ]
+1176 silly gunzTarPerm extractEntry .travis.yml
+1177 silly gunzTarPerm extractEntry docs/docco.css
+1178 silly gunzTarPerm extractEntry docs/prompt.html
+1179 silly gunzTarPerm extractEntry examples/add-properties.js
+1180 silly gunzTarPerm extractEntry examples/history.js
+1181 silly gunzTarPerm extractEntry examples/nested-properties-prompt.js
+1182 silly gunzTarPerm extractEntry examples/old-schema.js
+1183 silly gunzTarPerm extractEntry examples/existing-properties.js
+1184 silly gunzTarPerm extractEntry examples/password.js
+1185 silly gunzTarPerm extractEntry examples/prompt-override.js
+1186 silly gunzTarPerm extractEntry examples/property-prompt.js
+1187 silly gunzTarPerm extractEntry examples/simple-prompt.js
+1188 silly gunzTarPerm extractEntry examples/yes-or-no-prompt.js
+1189 silly gunzTarPerm extractEntry examples/override-validation.js
+1190 silly gunzTarPerm extractEntry lib/prompt.js
+1191 silly gunzTarPerm extractEntry CHANGELOG.md
+1192 silly gunzTarPerm extractEntry test/helpers.js
+1193 silly gunzTarPerm extractEntry test/interactive-prompt-test.js
+1194 silly gunzTarPerm extractEntry test/macros.js
+1195 silly gunzTarPerm extractEntry test/prompt-test.js
+1196 silly lockFile a35dc3de-432836-0-367092558182776-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\package
+1197 silly lockFile a35dc3de-432836-0-367092558182776-package tar://C:\Users\GIANPA~1\AppData\Local\Temp\npm-5292-dEq0PFOY\1402266432836-0.367092558182776\package
+1198 silly lockFile cc1c7da4-m-cache-semver-1-1-0-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz
+1199 silly lockFile cc1c7da4-m-cache-semver-1-1-0-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz
+1200 silly lockFile 1b86154e-g-npm-cache-semver-1-1-0-package C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package
+1201 verbose lock C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\1b86154e-g-npm-cache-semver-1-1-0-package.lock
+1202 silly lockFile 1b86154e-g-npm-cache-semver-1-1-0-package C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package
+1203 silly lockFile 1b86154e-g-npm-cache-semver-1-1-0-package C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package
+1204 verbose tar unpack C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz
+1205 silly lockFile 67099b3f-g-npm-cache-semver-1-1-0-package tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package
+1206 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package C:\Users\gianpaolo\AppData\Roaming\npm-cache\67099b3f-g-npm-cache-semver-1-1-0-package.lock
+1207 silly lockFile cc1c7da4-m-cache-semver-1-1-0-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz
+1208 verbose lock tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz C:\Users\gianpaolo\AppData\Roaming\npm-cache\cc1c7da4-m-cache-semver-1-1-0-package-tgz.lock
+1209 silly gunzTarPerm modes [ '755', '644' ]
+1210 silly gunzTarPerm extractEntry package.json
+1211 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1212 silly gunzTarPerm extractEntry README.md
+1213 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1214 silly gunzTarPerm extractEntry LICENSE
+1215 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1216 silly gunzTarPerm extractEntry semver.js
+1217 silly gunzTarPerm modified mode [ 'semver.js', 438, 420 ]
+1218 silly gunzTarPerm extractEntry test.js
+1219 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+1220 silly gunzTarPerm extractEntry bin/semver
+1221 silly gunzTarPerm modified mode [ 'bin/semver', 438, 420 ]
+1222 silly lockFile 93d4eb1c-ub-com-lorinbeer-cordova-lib-git git://github.com/lorinbeer/cordova-lib.git
+1223 silly lockFile 93d4eb1c-ub-com-lorinbeer-cordova-lib-git git://github.com/lorinbeer/cordova-lib.git
+1224 info maybeGithub Attempting lorinbeer/cordova-lib.git#pg.3.5.0 from git+ssh://git@github.com:lorinbeer/cordova-lib.git#pg.3.5.0
+1225 silly lockFile c3e4f225-ub-com-lorinbeer-cordova-lib-git git@github.com:lorinbeer/cordova-lib.git
+1226 verbose lock git@github.com:lorinbeer/cordova-lib.git C:\Users\gianpaolo\AppData\Roaming\npm-cache\c3e4f225-ub-com-lorinbeer-cordova-lib-git.lock
+1227 http 200 https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.9.4.tgz
+1228 verbose addRemoteGit [ 'git@github.com:lorinbeer/cordova-lib.git', 'pg.3.5.0' ]
+1229 silly lockFile 67099b3f-g-npm-cache-semver-1-1-0-package tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package
+1230 silly lockFile 67099b3f-g-npm-cache-semver-1-1-0-package tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package
+1231 silly lockFile cc1c7da4-m-cache-semver-1-1-0-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz
+1232 silly lockFile cc1c7da4-m-cache-semver-1-1-0-package-tgz tar://C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz
+1233 verbose chmod C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz 644
+1234 silly chown skipping for windows C:\Users\gianpaolo\AppData\Roaming\npm-cache\semver\1.1.0\package.tgz
+1235 silly lockFile 4fbf0753-pmjs-org-semver-semver-1-1-0-tgz https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+1236 silly lockFile 4fbf0753-pmjs-org-semver-semver-1-1-0-tgz https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+1237 silly lockFile 740aca99-semver-1-1-0 semver@1.1.0
+1238 silly lockFile 740aca99-semver-1-1-0 semver@1.1.0
+1239 silly lockFile c3e4f225-ub-com-lorinbeer-cordova-lib-git git@github.com:lorinbeer/cordova-lib.git
+1240 silly lockFile c3e4f225-ub-com-lorinbeer-cordova-lib-git git@github.com:lorinbeer/cordova-lib.git
+1241 silly lockFile d215b5d6-rinbeer-cordova-lib-git-pg-3-5-0 cordova-lib@lorinbeer/cordova-lib.git#pg.3.5.0
+1242 silly lockFile d215b5d6-rinbeer-cordova-lib-git-pg-3-5-0 cordova-lib@lorinbeer/cordova-lib.git#pg.3.5.0
+1243 verbose about to build C:\Users\gianpaolo\AppData\Roaming\npm\node_modules\phonegap
+1244 info C:\Users\gianpaolo\AppData\Roaming\npm\node_modules\phonegap unbuild
+1245 info preuninstall phonegap@3.5.0-0.20.1
+1246 info uninstall phonegap@3.5.0-0.20.1
+1247 verbose true,C:\Users\gianpaolo\AppData\Roaming\npm\node_modules,C:\Users\gianpaolo\AppData\Roaming\npm\node_modules unbuild phonegap@3.5.0-0.20.1
+1248 verbose C:\Users\gianpaolo\AppData\Roaming\npm,[object Object] binRoot
+1249 info postuninstall phonegap@3.5.0-0.20.1
+1250 error notarget No compatible version found: cordova-lib@'lorinbeer/cordova-lib.git#pg.3.5.0'
+1250 error notarget Valid install targets:
+1250 error notarget ["0.21.2","0.21.3"]
+1250 error notarget
+1250 error notarget This is most likely not a problem with npm itself.
+1250 error notarget In most cases you or one of your dependencies are requesting
+1250 error notarget a package version that doesn't exist.
+1251 error System Windows_NT 6.0.6002
+1252 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "phonegap"
+1253 error cwd C:\Users\gianpaolo\Documents\GitHub\oneaday\app\oneaday
+1254 error node -v v0.10.26
+1255 error npm -v 1.4.3
+1256 error code ETARGET
+1257 verbose exit [ 1, true ]

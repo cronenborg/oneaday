@@ -1,41 +1,80 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <title>Hello World</title>
+        <title>One A Day</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
+        <!-- Fixed navbar -->
+				<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">ONE A DAY</a>
+						</div>
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="active"><a href="#">HOME</a></li>
+								<li><a href="#about">PIC</a></li>
+								<li><a href="#about">LIVE</a></li>
+								<li><a href="#about">STREAM</a></li>
+							</ul>
+						</div><!--/.nav-collapse -->
+					</div>
+				</div>
+
+				<!-- Main jumbotron for a primary marketing message or call to action -->
+				<div class="jumbotron">
+					<div class="container">
+						<h1>One A Day</h1>
+						<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+						<p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+					</div>
+				</div>
+
+				<div class="container">
+					<!-- Example row of columns -->
+					<div class="row">
+						<div class="col-md-4">
+							<h2>One A Day</h2>
+							<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+							<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+						</div>
+						<div class="col-md-4">
+							<h2>One A Day</h2>
+							<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+							<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+					 </div>
+						<div class="col-md-4">
+							<h2>One A Day</h2>
+							<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+							<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+						</div>
+					</div>
+
+					<hr>
+
+				</div> <!-- /container -->
+				<div id="footer">
+					<div class="container">
+						<p class="text-muted">Place sticky footer content here.</p>
+					</div>
+				</div>
+								
         <script type="text/javascript" src="cordova.js"></script>
+				<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();

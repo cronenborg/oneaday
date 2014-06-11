@@ -1,12 +1,81 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gianpa.oneaday" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.gianpa.oneaday" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode = "1">
+		<preference name="phonegap-version" value="3.5.0" />
+    <gap:platform name="android" />
+		<gap:plugin name="com.phonegap.plugins.pushplugin"/>
+		<gap:plugin name="org.apache.cordova.camera"/>
+		<gap:plugin name="org.apache.cordova.device" version="0.2.8" />
+		<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
+		<gap:plugin name="org.apache.cordova.file" version="1.0.1" />
+		<gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2" />
+		<gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
+		<gap:plugin name="org.apache.cordova.media" version="0.2.8" />
+		<gap:plugin name="org.apache.cordova.media-capture" version="0.2.8" />
+		<gap:plugin name="org.apache.cordova.splashscreen" />
+		<gap:plugin name="org.apache.cordova.network-information" />
+		<gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
+			<param name="APP_ID" value="291972127598452" />
+			<param name="APP_NAME" value="RDS Play Social" />
+		</gap:plugin>
     <name>ONEADAY</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Pic a selfie one a day for life and see you changing!
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="gianpaolo.papa@yahoo.it" href="http://www.gianpa.com">
+        Gianpaolo Papa
     </author>
-    <content src="index.html" />
-    <access origin="*" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="false" />
+		<preference name="AutoHideSplashScreen" value="false" />
+		<preference name="SplashScreenDelay" value="10000"/>
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="9" />
+    <preference name="android-targetSdkVersion" value="14" />
+    <preference name="android-installLocation" value="auto" />
+    <icon src="icon.png" />
+    <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />
+    <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" />
+    <icon gap:density="hdpi" gap:platform="android" src="res/icon/android/icon-72-hdpi.png" />
+    <icon gap:density="xhdpi" gap:platform="android" src="res/icon/android/icon-96-xhdpi.png" />
+    <gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
+    <access origin="http://127.0.0.1*" />
+    <access origin="http://rds.it" subdomains="true" />
+		<access origin="http://*.rds.it" />
+		<access origin="http://youtube.com" subdomains="true" />
+		<access origin="http://*.youtube.com" />
+		<access origin="http://*.facebook.net" />
+		<access origin="https://*.facebook.net" />
+		<access origin="http://*.facebook.com" />
+		<access origin="https://*.facebook.com" />
+		<access origin="http://*.rds-vinci.it" />
+		<access origin="http://*.neodatagroup.com" />
+		<access origin="http://*.amazonaws.com" />
+		<access origin="http://s3.amazonaws.com" subdomains="true" />
+		<access origin="http://*.s3.amazonaws.com" />
+		<access uri="http://rds.it" subdomains="true" />
+		<access uri="http://connect.facebook.net" subdomains="true" />
+		<access uri="https://connect.facebook.net" subdomains="true" />
+		<access uri="http://facebook.net" subdomains="true" />
+		<access uri="https://facebook.net" subdomains="true" />
+		<access uri="http://facebook.com" subdomains="true" />
+		<access uri="https://facebook.com" subdomains="true" />
+		<access uri="http://youtube.com" subdomains="true" />
+		<access uri="http://rds-vinci.it" subdomains="true" />
+		<access uri="http://neodatagroup.com" subdomains="true" />
+		<access uri="http://amazonaws.com" subdomains="true" />
+		<access uri="http://s3.amazonaws.com" subdomains="true" />
 </widget>

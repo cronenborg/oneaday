@@ -1,0 +1,20 @@
+C:\Program Files\Java
+
+
+C:\xampp\php\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;C:\Program Files\Acer\Empowering Technology\eDataSecurity\;C:\Program Files\Acer\Empowering Technology\eDataSecurity\x86;C:\Program Files\Acer\Empowering Technology\eDataSecurity\x64;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;D:\Programmi\jEdit;C:\Program Files\Java\jdk1.7.0_60\bin;%ANT_HOME%\bin
+
+
+C:\Users\gianpaolo\Documents\GitHub\oneaday\app\oneaday
+
+Unable to locate tools.jar
+
+ant -version
+
+cordova plugin add org.apache.cordova.camera
+cordova plugin add org.apache.cordova.media-capture
+cordova plugin add org.apache.cordova.media
+cordova plugin add org.apache.cordova.file
+cordova plugin add org.apache.cordova.file-transfer
+cordova plugin add org.apache.cordova.splashscreen
+cordova plugin add org.apache.cordova.inappbrowser
+cordova plugin add org.apache.cordova.console
